@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0FD65EE58589B73A0960F261 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0FD65EE58589B73A0960F261 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1C96F684DBDB4B7B64347F31 /* Pods-LocalLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalLib_Tests.debug.xcconfig"; path = "Target Support Files/Pods-LocalLib_Tests/Pods-LocalLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3E502319DF0276DA8A14DAF1 /* Pods-LocalLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LocalLib_Tests.release.xcconfig"; path = "Target Support Files/Pods-LocalLib_Tests/Pods-LocalLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		5FC48A797A29FCBDC00B8BBB /* Pods_LocalLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LocalLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -29,8 +29,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		AF9F1187EE0D9FAC6E99C3F8 /* LocalLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LocalLib.podspec; path = ../LocalLib.podspec; sourceTree = "<group>"; };
-		B2DBE083D9FA1C36F7360910 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AF9F1187EE0D9FAC6E99C3F8 /* LocalLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LocalLib.podspec; path = ../LocalLib.podspec; sourceTree = "<group>"; };
+		B2DBE083D9FA1C36F7360910 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +54,6 @@
 				1C96F684DBDB4B7B64347F31 /* Pods-LocalLib_Tests.debug.xcconfig */,
 				3E502319DF0276DA8A14DAF1 /* Pods-LocalLib_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,7 +145,7 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = CSY;
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "norvon@126.com";
 				TargetAttributes = {
@@ -160,6 +159,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
