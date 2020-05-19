@@ -1,15 +1,22 @@
 PODS:
-  - LocalLib (0.1.0)
+  - LocalLib (0.0.3):
+    - MBProgressHUD
+  - MBProgressHUD (1.2.0)
 
 DEPENDENCIES:
   - LocalLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
 
 EXTERNAL SOURCES:
   LocalLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LocalLib: 823aeb8cb0e0e35f57b1d44f6099820207799202
+  LocalLib: df43f8440b8de6a6bd2c80c36f2dfd121b08dd2e
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
 PODFILE CHECKSUM: 2ba6442b70ae2f8b8e2c7f4403e46eef640a4b8e
 
