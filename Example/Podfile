@@ -1,0 +1,6 @@
+use_frameworks!
+target 'LocalLib_Tests' do
+  pod 'LocalLib', :path => '../'
+  
+  
+end
