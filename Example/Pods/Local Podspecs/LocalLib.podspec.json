@@ -1,6 +1,6 @@
 {
   "name": "LocalLib",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "summary": "A short description of LocalLib.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/norvon@126.com/LocalLib",
@@ -13,16 +13,38 @@
   },
   "source": {
     "git": "https://github.com/norvon@126.com/LocalLib.git",
-    "tag": "0.0.3"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LocalLib/Classes/**/*",
   "frameworks": "AVFoundation",
   "dependencies": {
     "MBProgressHUD": [
 
     ]
-  }
+  },
+  "subspecs": [
+    {
+      "name": "CSYDefine",
+      "source_files": "LocalLib/Classes/Define/*"
+    },
+    {
+      "name": "CSYThirdLib",
+      "source_files": "LocalLib/Classes/ThirdLib/**/*"
+    },
+    {
+      "name": "CSYLGAlertViewThirdLib",
+      "source_files": "LocalLib/Classes/ThirdLib/LGAlertView*/*"
+    },
+    {
+      "name": "CSYUtils",
+      "source_files": "LocalLib/Classes/Utils/**/*",
+      "dependencies": {
+        "LocalLib/CSYLGAlertViewThirdLib": [
+
+        ]
+      }
+    }
+  ]
 }

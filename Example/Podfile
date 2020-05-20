@@ -1,6 +1,6 @@
 use_frameworks!
 target 'LocalLib_Tests' do
-  pod 'LocalLib', :path => '../'
+  pod 'LocalLib', :path => '../'#, :subspecs => ['CSYUtils']
   
   
 end

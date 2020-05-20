@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LocalLib'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'A short description of LocalLib.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'LocalLib/Classes/**/*'
+#  s.source_files = 'LocalLib/Classes/README.md'
   
   # s.resource_bundles = {
   #   'LocalLib' => ['LocalLib/Assets/*.png']
@@ -39,4 +39,25 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.framework = 'AVFoundation'
   s.dependency 'MBProgressHUD'
+  
+  s.subspec 'CSYDefine' do |ss|
+    ss.source_files = 'LocalLib/Classes/Define/*'
+  end
+  
+#  s.subspec 'CSYMamager' do |ss|
+#    ss.source_files = 'LocalLib/Classes/Mamager/**/*'
+#  end
+  
+  s.subspec 'CSYThirdLib' do |ss|
+    ss.source_files = 'LocalLib/Classes/ThirdLib/**/*'
+  end
+  
+  s.subspec 'CSYLGAlertViewThirdLib' do |ss|
+    ss.source_files = 'LocalLib/Classes/ThirdLib/LGAlertView*/*'
+  end
+  
+  s.subspec 'CSYUtils' do |ss|
+    ss.source_files = 'LocalLib/Classes/Utils/**/*'
+    ss.dependency  'LocalLib/CSYLGAlertViewThirdLib'
+  end
 end

@@ -1,5 +1,18 @@
 PODS:
-  - LocalLib (0.0.3):
+  - LocalLib (0.0.4):
+    - LocalLib/CSYDefine (= 0.0.4)
+    - LocalLib/CSYLGAlertViewThirdLib (= 0.0.4)
+    - LocalLib/CSYThirdLib (= 0.0.4)
+    - LocalLib/CSYUtils (= 0.0.4)
+    - MBProgressHUD
+  - LocalLib/CSYDefine (0.0.4):
+    - MBProgressHUD
+  - LocalLib/CSYLGAlertViewThirdLib (0.0.4):
+    - MBProgressHUD
+  - LocalLib/CSYThirdLib (0.0.4):
+    - MBProgressHUD
+  - LocalLib/CSYUtils (0.0.4):
+    - LocalLib/CSYLGAlertViewThirdLib
     - MBProgressHUD
   - MBProgressHUD (1.2.0)
 
@@ -15,9 +28,9 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LocalLib: df43f8440b8de6a6bd2c80c36f2dfd121b08dd2e
+  LocalLib: a55d08ffd7d621e25cc858416fe944ad69ad67f7
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
-PODFILE CHECKSUM: 2ba6442b70ae2f8b8e2c7f4403e46eef640a4b8e
+PODFILE CHECKSUM: 118afa5bf6d0250a0db3c773f4cd45459121b024
 
 COCOAPODS: 1.9.1
