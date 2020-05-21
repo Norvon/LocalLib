@@ -18,33 +18,169 @@
   "platforms": {
     "ios": "8.0"
   },
-  "frameworks": "AVFoundation",
-  "dependencies": {
-    "MBProgressHUD": [
-
-    ]
-  },
   "subspecs": [
     {
-      "name": "CSYDefine",
-      "source_files": "LocalLib/Classes/Define/*"
+      "name": "DataDigest",
+      "source_files": [
+        "LocalLib/Classes/Utils/DataDigest/**/*"
+      ]
     },
     {
-      "name": "CSYThirdLib",
-      "source_files": "LocalLib/Classes/ThirdLib/**/*"
+      "name": "DateUtil",
+      "source_files": [
+        "LocalLib/Classes/Utils/DateUtil/**/*"
+      ]
     },
     {
-      "name": "CSYLGAlertViewThirdLib",
-      "source_files": "LocalLib/Classes/ThirdLib/LGAlertView*/*"
+      "name": "DeviceIDTool",
+      "source_files": [
+        "LocalLib/Classes/Utils/DeviceIDTool/**/*"
+      ]
     },
     {
-      "name": "CSYUtils",
-      "source_files": "LocalLib/Classes/Utils/**/*",
+      "name": "FileUtil",
+      "source_files": [
+        "LocalLib/Classes/Utils/FileUtil/**/*"
+      ]
+    },
+    {
+      "name": "FontUtil",
+      "source_files": [
+        "LocalLib/Classes/Utils/FontUtil/**/*"
+      ]
+    },
+    {
+      "name": "KeyGenerator",
+      "source_files": [
+        "LocalLib/Classes/Utils/KeyGenerator/**/*"
+      ],
       "dependencies": {
-        "LocalLib/CSYLGAlertViewThirdLib": [
+        "LocalLib/DataDigest": [
 
         ]
       }
+    },
+    {
+      "name": "MachineModel",
+      "source_files": [
+        "LocalLib/Classes/Utils/MachineModel/**/*"
+      ]
+    },
+    {
+      "name": "CSYInternalNullExtention",
+      "source_files": [
+        "LocalLib/Classes/Utils/CSYInternalNullExtention/**/*"
+      ]
+    },
+    {
+      "name": "NSObjectUtil",
+      "source_files": [
+        "LocalLib/Classes/Utils/NSObjectUtil/**/*"
+      ]
+    },
+    {
+      "name": "NSStringUtil",
+      "source_files": [
+        "LocalLib/Classes/Utils/NSStringUtil/**/*"
+      ]
+    },
+    {
+      "name": "RegexPredicate",
+      "source_files": [
+        "LocalLib/Classes/Utils/RegexPredicate/**/*"
+      ]
+    },
+    {
+      "name": "Security",
+      "source_files": [
+        "LocalLib/Classes/Utils/Security/**/*"
+      ]
+    },
+    {
+      "name": "SystemUtil",
+      "source_files": [
+        "LocalLib/Classes/Utils/SystemUtil/**/*"
+      ],
+      "dependencies": {
+        "LocalLib/LGAlertViewManager": [
+
+        ]
+      }
+    },
+    {
+      "name": "UIButtonUtil",
+      "source_files": [
+        "LocalLib/Classes/Utils/UIButtonUtil/**/*"
+      ],
+      "dependencies": {
+        "LocalLib/UIImageUtil": [
+
+        ]
+      }
+    },
+    {
+      "name": "UIImageUtil",
+      "source_files": [
+        "LocalLib/Classes/Utils/UIImageUtil/**/*"
+      ]
+    },
+    {
+      "name": "UIView",
+      "source_files": [
+        "LocalLib/Classes/Utils/UIView/**/*"
+      ]
+    },
+    {
+      "name": "UIViewHud",
+      "source_files": [
+        "LocalLib/Classes/Utils/UIViewHud/**/*"
+      ],
+      "dependencies": {
+        "MBProgressHUD": [
+
+        ]
+      }
+    },
+    {
+      "name": "LGAlertViewManager",
+      "source_files": [
+        "LocalLib/Classes/Mamager/LGAlertViewManager/**/*"
+      ],
+      "dependencies": {
+        "LocalLib/LGAlertView": [
+
+        ]
+      }
+    },
+    {
+      "name": "LGAlertView",
+      "source_files": [
+        "LocalLib/Classes/ThirdLib/LGAlertView/**/*"
+      ]
+    },
+    {
+      "name": "LJContactManager",
+      "source_files": [
+        "LocalLib/Classes/ThirdLib/LJContactManager/**/*"
+      ]
+    },
+    {
+      "name": "LYEmptyView",
+      "source_files": [
+        "LocalLib/Classes/ThirdLib/LYEmptyView/**/*"
+      ]
+    },
+    {
+      "name": "ColorMacros",
+      "source_files": [
+        "LocalLib/Classes/Define/ColorMacros/**/*"
+      ]
+    },
+    {
+      "name": "UtilMacros",
+      "source_files": [
+        "LocalLib/Classes/Define/UtilMacros/**/*"
+      ]
     }
   ]
 }

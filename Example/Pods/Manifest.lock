@@ -1,36 +1,16 @@
 PODS:
-  - LocalLib (0.0.4):
-    - LocalLib/CSYDefine (= 0.0.4)
-    - LocalLib/CSYLGAlertViewThirdLib (= 0.0.4)
-    - LocalLib/CSYThirdLib (= 0.0.4)
-    - LocalLib/CSYUtils (= 0.0.4)
-    - MBProgressHUD
-  - LocalLib/CSYDefine (0.0.4):
-    - MBProgressHUD
-  - LocalLib/CSYLGAlertViewThirdLib (0.0.4):
-    - MBProgressHUD
-  - LocalLib/CSYThirdLib (0.0.4):
-    - MBProgressHUD
-  - LocalLib/CSYUtils (0.0.4):
-    - LocalLib/CSYLGAlertViewThirdLib
-    - MBProgressHUD
-  - MBProgressHUD (1.2.0)
+  - LocalLib/ColorMacros (0.0.4)
 
 DEPENDENCIES:
-  - LocalLib (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - MBProgressHUD
+  - LocalLib/ColorMacros (from `../`)
 
 EXTERNAL SOURCES:
   LocalLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LocalLib: a55d08ffd7d621e25cc858416fe944ad69ad67f7
-  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  LocalLib: 0dcdcded11b728d20b5650f38d4c931d3d078f86
 
-PODFILE CHECKSUM: 118afa5bf6d0250a0db3c773f4cd45459121b024
+PODFILE CHECKSUM: 9513bc8fa4a4319b7440480ba7b539b868470bb4
 
 COCOAPODS: 1.9.1
