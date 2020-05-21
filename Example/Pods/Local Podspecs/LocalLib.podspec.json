@@ -165,6 +165,17 @@
       }
     },
     {
+      "name": "AliPayManager",
+      "source_files": [
+        "LocalLib/Classes/Mamager/AliPayManager/**/*"
+      ],
+      "dependencies": {
+        "AlipaySDK-iOS": [
+
+        ]
+      }
+    },
+    {
       "name": "LGAlertView",
       "source_files": [
         "LocalLib/Classes/ThirdLib/LGAlertView/**/*"

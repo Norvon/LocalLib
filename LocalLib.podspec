@@ -61,7 +61,7 @@ Pod::Spec.new do |s|
   # 所有manager
   CSYLGAlertViewManager       = {:spec_path => "Mamager", :spec_name => "LGAlertViewManager",    :spec_dependency => ['LocalLib/LGAlertView'] }
   CSYWechatPayManager         = {:spec_path => "Mamager", :spec_name => "WechatPayManager",      :spec_dependency => ['WechatOpenSDK'], :static_framework => true}
-  
+  CSYAliPayManager            = {:spec_path => "Mamager", :spec_name => "AliPayManager",         :spec_dependency => ['AlipaySDK-iOS']}
   
   # 所有ThirdLib
   CSYLGAlertView              = {:spec_path => "ThirdLib", :spec_name => "LGAlertView"               }
@@ -95,6 +95,7 @@ Pod::Spec.new do |s|
     # 所有manager
     CSYLGAlertViewManager,
     CSYWechatPayManager,
+    CSYAliPayManager,
     
     # 所有ThirdLib
     CSYLGAlertView,
@@ -106,6 +107,7 @@ Pod::Spec.new do |s|
     CSYUtilMacros,
   ]
   
+#  循环进行添加
   all_sub_spec.each do |sub_spec|
     
     providerName            = sub_spec[:spec_name]
@@ -134,3 +136,7 @@ Pod::Spec.new do |s|
 
 
 end
+
+# pod lib lint --use-libraries --subspec='WechatPayManager'
+# --use-libraries  Lint使用静态库来安装 static_framework
+# --subspec 只编译子模块

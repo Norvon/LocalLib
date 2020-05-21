@@ -7,9 +7,18 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
+		4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 48CE3FED3E2D19C4363505B9F04916C7 /* Build configuration list for PBXAggregateTarget "AlipaySDK-iOS" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = "AlipaySDK-iOS";
+		};
 		8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 08A34EC108395C3A49AD5B2C81F22FE3 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
+			buildConfigurationList = AA07283E6BB17AF2B004F5A8B7D89A89 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */;
 			buildPhases = (
 			);
 			dependencies = (
@@ -19,32 +28,160 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		05A8560469731CF9DC16E869740CD53D /* CSYWechatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D83A65C2CD30903F57A7206FF3FE39 /* CSYWechatManager.m */; };
-		0949BCFF52F5B39398B8200ED3559432 /* LocalLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2AB31EC86063227A6B11DAD1B32EA8C /* LocalLib-dummy.m */; };
-		1415ABBF468FED351947A99AD1C24564 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5246989387AE262C460CCEEE5C6294B5 /* Pods-LocalLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 079346EEDBB31260025CCE81BEE86456 /* Pods-LocalLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5DCBB8040BC90A778904D8018146D4F1 /* LocalLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D70FC617E400955B5B50DF6F8C6E42C9 /* LocalLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		693DFADBCF2916C666EA2EC7C25129D8 /* Pods-LocalLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5C3249C158B91B0F63CE4AA7DF80D6 /* Pods-LocalLib_Tests-dummy.m */; };
-		9561035E241E73F68ECFD4677913A736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C1207323243CF075A1AFB619A19451CB /* CSYWechatManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 07E9529F69658BB288C666B336280F74 /* CSYWechatManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00EA13F4FAD84BF24898015CE79104FB /* NSNull+CSYInternalNullExtention.h in Headers */ = {isa = PBXBuildFile; fileRef = 191D3AAC17F2673EA0E9577D8DEBEC4E /* NSNull+CSYInternalNullExtention.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		028631334BE7D4BF92A9690ADD155143 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8ACEBAADC0881BE2CD6B3232F2FCC2 /* Foundation.framework */; };
+		0C19A4063781130A6276FA1B07B916D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8ACEBAADC0881BE2CD6B3232F2FCC2 /* Foundation.framework */; };
+		0E62ECEE3326A941AE928132C22F54CE /* DataDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = 27C497C2790673361A308411563F194F /* DataDigest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FD7E8FAB882FE0A775F3F96EBFBFD2E /* LGAlertViewWindowContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = DA5BC4DA83EE9F81DE559A78A33F733F /* LGAlertViewWindowContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		127EAF1A4B4266DAFE0F512A232D9904 /* UIWindow+LGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A3D9C03C73F038F45E10E7F08DDF6F3 /* UIWindow+LGAlertView.m */; };
+		14E48384B3AE722727BA3A7BD1E1277A /* NSString+CSYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B19D437A95195C0ABEBB7D6275FA3B82 /* NSString+CSYUtil.m */; };
+		159C9CBCBBD28BA0294657292F64A49C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFA51DF58BFD369AF6BE252245A18B2F /* QuartzCore.framework */; };
+		181EC21FC7C0FD30C6B59C7D5896D240 /* UIView+Empty.m in Sources */ = {isa = PBXBuildFile; fileRef = C805CD8A61CC646FA61C0B8812BE7CE4 /* UIView+Empty.m */; };
+		1889CC02349190DD28B9EB20936A4033 /* KeychainItemWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 40D0F441675EB5ED15F68B4DB524A370 /* KeychainItemWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A5EC374C6F3F95FA2C724FAA591DCAE /* LYEmptyViewHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = F63D3F064DDE7B875CF5853B71DF003F /* LYEmptyViewHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C00D1C9853CC940C81C30EE0247C446 /* LocalLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 71960CC70DB5FA038529CB92C3E7AF68 /* LocalLib-dummy.m */; };
+		217ED0FEA4F501701BF31324F740C159 /* LGAlertViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83F27C47A1ADC5ECDEC4E2F2B9D7A05A /* LGAlertViewCell.m */; };
+		22255EEAE5A878ED754AE07B248BA5FF /* LGAlertViewTextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D9FEDFD2A89BBDAA975AF700E227B89 /* LGAlertViewTextField.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22B45D5E0E340CD5496B33EB47F44C8F /* LGAlertViewButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CA364A42DDF6D68F8215E4777B6772FD /* LGAlertViewButton.m */; };
+		264A02A8257FD98A57F1C53906AF25AA /* LGAlertViewWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = BE9762EB42E05BEB117AF0BF7B18FB3B /* LGAlertViewWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		283CF08154ED9A662C07F3171691914F /* UIWindow+LGAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 940A8D8F91A8B974B65D40465E0D5165 /* UIWindow+LGAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A5861A5F542D605940489D34CF4D9AB /* ChineseToPinyin.m in Sources */ = {isa = PBXBuildFile; fileRef = 96806294D3B4E0D4DE17E165635AD8C7 /* ChineseToPinyin.m */; };
+		2C619F5D6EB2BFCAC3F9BB5C9D7B1307 /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4D999120731097B33BDB2F3E0249A8 /* MBProgressHUD-dummy.m */; };
+		2CEFE2CEFB06D7E84F5C556B9BC111A7 /* UIView+CSYHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C1475501312196A273CE7064681F0E6 /* UIView+CSYHUD.m */; };
+		32AA2761EC13A57FADA36ECE773ABEC6 /* KeyGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E3DA33025591237B3E24FE799CB3F0 /* KeyGenerator.m */; };
+		347604B5E654E0B38910822927308D41 /* CSYRegexString.h in Headers */ = {isa = PBXBuildFile; fileRef = 0976A2A76F9FD09F9329BDBC8DFADA76 /* CSYRegexString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		35D2B5562ACE0484CEB721CB2C466957 /* LGAlertViewButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 528898B1855419D772D89E34FB19EF05 /* LGAlertViewButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		37587E40CB220F1C45939A33731BBE2D /* NSString+LJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B140777D18BEDEBC186B87626B3EF6DA /* NSString+LJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3799BB18C35FA5F5113EF6515DCF10E1 /* LJPerson.h in Headers */ = {isa = PBXBuildFile; fileRef = EF6827712FE0889A852BBB2332DD5016 /* LJPerson.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		39E793B420F808A53A9899A32C406D7C /* CSYMachineModelName.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DA21D27CFB0DF37E5D1B5798BFCA38 /* CSYMachineModelName.m */; };
+		3C1D63BF7BF1853305673577ED0B3F24 /* UIImage+CSYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E682C6C42B9FB88E53940DD70E3F341 /* UIImage+CSYUtil.m */; };
+		402CF2804A8BDD09EC52779DE6FB328E /* LYEmptyBaseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D6E97DD05BC6C23231A5398BABA2B5D /* LYEmptyBaseView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4036DDEC6D4F306D6B9A544D233D2AE4 /* CSYDeviceIDTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED683CF6AB6BA14D30C2A1C6EF65374 /* CSYDeviceIDTool.m */; };
+		41E5B85BFD8B3550972427A8A9009099 /* CSYMachineModelName.h in Headers */ = {isa = PBXBuildFile; fileRef = 840070D3E00B94EC619210C5C44578C6 /* CSYMachineModelName.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		429BFC462BF37FCFEBF6AA14308C2495 /* KeychainItemWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F9082C603E6A7E6E43E9126B8692BC /* KeychainItemWrapper.m */; };
+		4654F0105FF34B49112C8AA8EC32BD3E /* KeyGenerator.h in Headers */ = {isa = PBXBuildFile; fileRef = 02D78191E1B3F2519437536C6FB31563 /* KeyGenerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		496C549E610BDF20DC6241AA15183763 /* LGAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BEE21A972ADAD89C0113F6F42F0DFAE /* LGAlertView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49D9E4D67716E1530FB01A97F7131F2D /* NSString+CSYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 1400B7C08CBFCF14845AE77425DC29E9 /* NSString+CSYUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A3D786FF0B45A292613B92BAB018D62 /* LJContactManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 21CBA4805DDD43B8645E33B2E414991E /* LJContactManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B2267983CCCA7D20B016A20D0E4DA51 /* LGAlertViewButtonProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 3434A8F9D9829F5A790D8E50007E12D3 /* LGAlertViewButtonProperties.m */; };
+		4EFA7DEF64B68C92E5830ADF515A39CB /* LJPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 50CE403F7E27548C0B323F4839468025 /* LJPerson.m */; };
+		514F94CA79CC7329C5FD674197DEE146 /* UIButton+CSYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 10DBE4A2FE4D8F0A16FF456677A20B33 /* UIButton+CSYUtil.m */; };
+		535E082FE4E220BBB29670574A7B20C9 /* LYEmptyBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D44703A6CC24A52C3F6B21D7D0A23325 /* LYEmptyBaseView.m */; };
+		54676130D7DADAA10C8CA631EF91808F /* DataDigest.m in Sources */ = {isa = PBXBuildFile; fileRef = 423140B72035EE4A09B143E203270A10 /* DataDigest.m */; };
+		5C03C20B51CD71B392ECD5FF2D0A8368 /* Pods-LocalLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AB6C597EA30DB4857E562EB1D8CC72DD /* Pods-LocalLib_Tests-dummy.m */; };
+		60C956138EB7997D8B318438C53AA4B4 /* LGAlertViewWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B6261E363240BE6486B35BBA13B425 /* LGAlertViewWindow.m */; };
+		6214DB8B92F09BFBAB5FE515B8065724 /* CSYSystemUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = C273EB4272C53CC1113562833E81675B /* CSYSystemUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6224455E062760B668C7D5301410AC79 /* DataKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = D928BBF44BA44414A1EEF7AAE584BABE /* DataKeyChain.m */; };
+		632D5CDF8F06F1A7752B1552499AB1A0 /* NSString+LJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F592DB099E4150267008354AC483FBC8 /* NSString+LJExtension.m */; };
+		64A69C1A61E1E5456CEB3729DCA5EFAC /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD85EEC67BA9C77CFAEDA24A3326D1 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64B16ADE1DBBF8026E8C40489413AAD5 /* NSObject+CSYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DFA09AA97275B780495312BC68D9BE /* NSObject+CSYUtil.m */; };
+		66CE5177A4861337FFC7450DB6722336 /* LYEmptyView.h in Headers */ = {isa = PBXBuildFile; fileRef = 3478F7027636C2A2DD90D5776B9C3423 /* LYEmptyView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		682EC76C21A61E37AD915199FC8F14D1 /* CSYRegexPredicate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F715400E935491C2079F23B435D9065 /* CSYRegexPredicate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ACD55EBBBF28AE898B48DF32B40DFC9 /* UIView+CSYHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 140361CEC48D7AFDBA97794F1F61CC84 /* UIView+CSYHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DFFBA6780C3DA7AAE5CFE8F695C61FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8ACEBAADC0881BE2CD6B3232F2FCC2 /* Foundation.framework */; };
+		7E59028407B6B8457AACB6A32B3337D1 /* UIButton+CSYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = A92AC93441C3E3F516FE37CBD545D97C /* UIButton+CSYUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FB264D9A9113CFA2D3AC4FC84EAEF96 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD27B1C1B5D2F31F501108838D28EF02 /* CoreGraphics.framework */; };
+		81CA9DE29FB76D2E474D074287FC687E /* UIView+LayoutMethods.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D470517B55FFD1C6FBC5D5BEBCACAB5 /* UIView+LayoutMethods.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8420FC1B3C89811CE9E269CD71DC2671 /* LJPeoplePickerDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B105FD58D3221F26779C64132E00E30B /* LJPeoplePickerDelegate.m */; };
+		8423B7D010B1186B3BBBF284610CF22A /* UIView+LYExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = E39E64830C30CFE554426BFA1AD5A3F9 /* UIView+LYExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89464E78E7D47A15A5086D9FAD187292 /* LGAlertViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3141DB372E38028589C93846210C2F68 /* LGAlertViewHelper.m */; };
+		8C295D647D2D5DF2E3876B90D70F6058 /* LYEmptyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 694FB69C97BB83BC7C718853C1782683 /* LYEmptyView.m */; };
+		8D5544F819D1DDD239E69DBE5EE05B35 /* ChineseToPinyin.h in Headers */ = {isa = PBXBuildFile; fileRef = 443FB2049090ED9AC0C950473D656431 /* ChineseToPinyin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F16C7AD0826BD50291A62D46662762C /* LGAlertViewButtonProperties.h in Headers */ = {isa = PBXBuildFile; fileRef = 81A42D089499E48A17C1185C602C3CDB /* LGAlertViewButtonProperties.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91FD765FF27BD3A3EDE7A84B34087F6D /* CSYSystemUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = F18AB70B9D476893EBBF66B7980F6757 /* CSYSystemUtil.m */; };
+		9533F1676C9D7F17171C52A37FBD0EB3 /* LocalLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38EFDEF4F3C2B09969A68D04867DD992 /* LocalLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D279A479F8C8D07F407F2E0FB9B47D7 /* CSYAliPayManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A0D7EA89807ED1A417C89F0BCE33BAB /* CSYAliPayManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E6F34C5052DBDE7D48D87943BF44BEA /* LGAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = A3E55A46BD860BE0CF0DFA6E672C2E39 /* LGAlertView.m */; };
+		9F7246F38939ECFF9D141CE0EAE001C8 /* LGAlertViewWindowsObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E87F3A1CFDD7AC29B98BE8919CA234B /* LGAlertViewWindowsObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A05CC501834F198FCD5D462611904768 /* LGAlertViewWindowContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = B23A6951D1D84A17BC95F5D7D9C534B6 /* LGAlertViewWindowContainer.m */; };
+		A2270DFCDF9D411F8BBE2898F50F5D9A /* CSYWechatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C9A027335423DCA10065D84B1548EF61 /* CSYWechatManager.m */; };
+		A577C3DE173702A10E2723D3C70E4A62 /* CSYDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BC93C7C01C08B8D542357EABA658C91C /* CSYDateUtil.m */; };
+		A63117521A665947A44A73B2FC0BCD70 /* NSObject+CSYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DC2AB85A68A8C30A69FA9D57B447F71 /* NSObject+CSYUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A88FE7EDB14F7152F899B1D14339BC24 /* LGAlertViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = C74A0F2CAFFBC1B027551E2A647DE318 /* LGAlertViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC9E6C7C3CDC2454117F48460D0CEF04 /* LJContactManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AB2C9C22999F0E46EC7E9C4D7138BE28 /* LJContactManager.m */; };
+		ACA049398CAD42D050E29C18D52BEF62 /* LGAlertViewTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3271B82A291FC4E69464ACA40FB9A1BB /* LGAlertViewTextField.m */; };
+		AD349977BB9C028569C37B3FC0F4BF8A /* CSYDeviceIDTool.h in Headers */ = {isa = PBXBuildFile; fileRef = F514F52D08E8EA55309930D7821191EC /* CSYDeviceIDTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B05E7CB7AA87C5988500AB98B3E4B2B5 /* Pods-LocalLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4AC49A3C80C9785DAC846B739146639 /* Pods-LocalLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B2B6F1A9516ACFF1E66D3F18005C9DC0 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = 175E93141CE3E0177030FA15302B7637 /* UIView+LayoutMethods.m */; };
+		B788ABD6BC0D873784EED3C221C1E206 /* ColorMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 41D8B9EFD3FB5A08F1247399352B7E82 /* ColorMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB76D5494D0A2DA517B9058B03288751 /* FontUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AF3122FFEB671BED5C04ADAA2A3B25 /* FontUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC05A252069AB368916F133269B96337 /* LGAlertViewShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 48C99D0E17E9C6C32E19B3EE9E886B09 /* LGAlertViewShadowView.m */; };
+		BC225F5FE7226B8D83637C068999CFC6 /* UIView+LYExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = B3404CC963FFB74448CF3DF27E78A0CF /* UIView+LYExtension.m */; };
+		BF6B6606AC9E6B296F0C97821FFFDC0B /* NSNull+CSYInternalNullExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = E6889689966D2917A59C8406838131AC /* NSNull+CSYInternalNullExtention.m */; };
+		C1DA623B5F9B770EE7D5C61C81983CD9 /* UtilMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E7437BA32472151C9BF09EBD757A13 /* UtilMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6217C26ECC6632B7458AA8E3CB1D915 /* LGAlertViewWindowsObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D087360EE82611A03D1E9F7AB521CA1 /* LGAlertViewWindowsObserver.m */; };
+		C73BC300D9512C73987990EACF2F8CBA /* DataSecurity.h in Headers */ = {isa = PBXBuildFile; fileRef = 375E9B28C5CDCB139187153DE32EBD23 /* DataSecurity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9127F164A968AC7378D57E1615B58BD /* CSYFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F7393239CD0D985D4E4B8D4D9CE1B68E /* CSYFileUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA098D453515B8241C48314902B172AC /* LGAlertViewShadowView.h in Headers */ = {isa = PBXBuildFile; fileRef = C626CB4735907F57046EA0B3EF9DEE2A /* LGAlertViewShadowView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA3741819AADF07C89E6F597984D4705 /* UIView+Empty.h in Headers */ = {isa = PBXBuildFile; fileRef = A8638CE1C3793EC594F03D53D33FBABF /* UIView+Empty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CA8B486F8BD875869A684FD23FB2FB93 /* LJPickerDetailDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76051D41A501717F1D721886E1DFE028 /* LJPickerDetailDelegate.m */; };
+		CB427069A9DE615649E27D70BD40E297 /* LGAlertViewHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 11DF2893CCAD7B112807C7847E19B946 /* LGAlertViewHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC03C6F78768C1E68DB592F4810788C0 /* CSYRegexPredicate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE466E41F8E6E7BCB5C6407455660408 /* CSYRegexPredicate.m */; };
+		CC65D2718A48A29C8725C288D5B55C0A /* LGAlertViewShared.h in Headers */ = {isa = PBXBuildFile; fileRef = E97BE7EF99BCD14864B69DF18A9E8050 /* LGAlertViewShared.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CCCFE75D0D99398BB603506D57009763 /* LGAlertViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 16A422932A1B17C84A61943169016F2B /* LGAlertViewManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9CACC8E9BB1CCB1BBDF3569A2F8D47 /* CSYWechatManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 872D850996A819155403B9272900AD30 /* CSYWechatManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D317B21F5BC14A042B7074E7D1ACAE12 /* DataSecurity.m in Sources */ = {isa = PBXBuildFile; fileRef = A13F1A3B1C94F5C2830C66DBA59B6196 /* DataSecurity.m */; };
+		DAAAE7884169E3EFD16A826116324A9E /* LJPickerDetailDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 14BF032FF7309561CC23B2BB7E02D799 /* LJPickerDetailDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCE6B0A2F831475D129BC35BE9D5E210 /* UIView+CAShapeLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2B68CCA1100A09E8E537B35A9A1EAC /* UIView+CAShapeLayer.m */; };
+		E21EA0BE2B837733B7E0EC1EB6C4B942 /* UIImage+CSYUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 15212657665FDB40CC039AB73D55B907 /* UIImage+CSYUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2DD0E553054BE850A24FC372B8AA249 /* DataKeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A07CA134F4604C8BB593CAD78FD00CF /* DataKeyChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E558CDD59F1B1483BCD90226995E294C /* LGAlertViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 577D136F51BE551819E40ACAE0F944FB /* LGAlertViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5E5729AD364CA26A3143EF3B6618182 /* LGAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CF6941755A2327040326F47E5B91059 /* LGAlertViewController.m */; };
+		E5E59FCAB09DA3A483F840A96DA48CA3 /* LGAlertViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C7C3CEB76BDD5748F61296F47B9643CB /* LGAlertViewManager.m */; };
+		E772711FDDBF2219C602FE6EC95B3E9F /* UIView+CAShapeLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = AE3DEF0A0446D1DEFB5CF1330004D50B /* UIView+CAShapeLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9B5134693C4D75CD1772910C9CAEA89 /* FontUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 57A1077D310D8211ED479167D9F726FF /* FontUtil.m */; };
+		EE0284AA3B67FFD11BA317145EDA0EE7 /* CSYAliPayManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 035920F5207DDB24C12083C65C6705B3 /* CSYAliPayManager.m */; };
+		F0E11D6297CD90EE3EB627A8CDF2885E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 778B9A8EEF928A0CA22A52ECF2873635 /* MBProgressHUD.m */; };
+		F1937D8E4DB981E148A823A3893473FE /* CSYDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 683051399354B851406EF0B46DE67BF8 /* CSYDateUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F53995760C7A8BBF1B91350206ABAB22 /* LJPeoplePickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 43806D46EBB48238256A9232696B7185 /* LJPeoplePickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F94BBA1CA96A5E87E6FD04750386DD4F /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 78015E6BAA4EE3338F8D239AB720C14E /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9EE4B9D5C779C968AA7632CD528E818 /* CSYFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = E26A7DDB89C5028FB46285CEF0772E93 /* CSYFileUtil.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3A963603A0E4B841C05254D1AAF356D2 /* PBXContainerItemProxy */ = {
+		037A080B45B84F2945A7AE12D064B4BA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
 			remoteInfo = WechatOpenSDK;
 		};
-		93A6A15C3AFE4842475D11C302600ECA /* PBXContainerItemProxy */ = {
+		0B40E1171D71D93E6412B7B2447EF88D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		331105B4D318444FA3FF91003CD6A8C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4847ACB1E2799345AA74D9E317048D58;
+			remoteInfo = "AlipaySDK-iOS";
+		};
+		41927659715B0B79F1129763D7E4FDFF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 8554F6236D2AA202CF58503D2DF29730;
 			remoteInfo = WechatOpenSDK;
 		};
-		F63822E75742D278B32A1E9B0647A844 /* PBXContainerItemProxy */ = {
+		7B167ED7402A9C78E35B92AB5DB687BB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82B0A41D3031FF27D78E17B0A9A46FB0;
+			remoteInfo = MBProgressHUD;
+		};
+		AE587F158340B10B73378F4A65BB7AC2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4847ACB1E2799345AA74D9E317048D58;
+			remoteInfo = "AlipaySDK-iOS";
+		};
+		FD722D37ED8DF8EB38ED34630396D72A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -54,228 +191,771 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		079346EEDBB31260025CCE81BEE86456 /* Pods-LocalLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocalLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		07E9529F69658BB288C666B336280F74 /* CSYWechatManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSYWechatManager.h; path = LocalLib/Classes/Mamager/WechatPayManager/CSYWechatManager.h; sourceTree = "<group>"; };
-		14D83A65C2CD30903F57A7206FF3FE39 /* CSYWechatManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSYWechatManager.m; path = LocalLib/Classes/Mamager/WechatPayManager/CSYWechatManager.m; sourceTree = "<group>"; };
-		246009A6BA83BF2046C219132F1F2BFA /* Pods-LocalLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		24C6131A15F518CBD05879D0072C11A0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		2A62B097C6B20415062AAC90560B03A6 /* LocalLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalLib-prefix.pch"; sourceTree = "<group>"; };
-		30BDAE1B5E0C61D231041F45D886AC95 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
-		46E51A0C86A17B83AD01C2F8B1ABBA75 /* Pods-LocalLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		48000423D1B29D62F08085659A1F44C7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		504EBF70452C99A918E0A79F28AB31C1 /* LocalLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocalLib.modulemap; sourceTree = "<group>"; };
-		572565F6272AA897CCA87E23515DAA65 /* Pods-LocalLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalLib_Tests-Info.plist"; sourceTree = "<group>"; };
-		578966CED4999DC4FD3101802A3611A3 /* Pods-LocalLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5D5C3249C158B91B0F63CE4AA7DF80D6 /* Pods-LocalLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		02D78191E1B3F2519437536C6FB31563 /* KeyGenerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeyGenerator.h; path = LocalLib/Classes/Utils/KeyGenerator/KeyGenerator.h; sourceTree = "<group>"; };
+		035920F5207DDB24C12083C65C6705B3 /* CSYAliPayManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSYAliPayManager.m; path = LocalLib/Classes/Mamager/AliPayManager/CSYAliPayManager.m; sourceTree = "<group>"; };
+		0457A88FB19BDE78BABF957C90961E5F /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
+		0976A2A76F9FD09F9329BDBC8DFADA76 /* CSYRegexString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSYRegexString.h; path = LocalLib/Classes/Utils/RegexPredicate/CSYRegexString.h; sourceTree = "<group>"; };
+		0D470517B55FFD1C6FBC5D5BEBCACAB5 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LayoutMethods.h"; path = "LocalLib/Classes/Utils/UIView/UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		0DC2AB85A68A8C30A69FA9D57B447F71 /* NSObject+CSYUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+CSYUtil.h"; path = "LocalLib/Classes/Utils/NSObjectUtil/NSObject+CSYUtil.h"; sourceTree = "<group>"; };
+		0ED683CF6AB6BA14D30C2A1C6EF65374 /* CSYDeviceIDTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSYDeviceIDTool.m; path = LocalLib/Classes/Utils/DeviceIDTool/CSYDeviceIDTool.m; sourceTree = "<group>"; };
+		0F715400E935491C2079F23B435D9065 /* CSYRegexPredicate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSYRegexPredicate.h; path = LocalLib/Classes/Utils/RegexPredicate/CSYRegexPredicate.h; sourceTree = "<group>"; };
+		10DBE4A2FE4D8F0A16FF456677A20B33 /* UIButton+CSYUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+CSYUtil.m"; path = "LocalLib/Classes/Utils/UIButtonUtil/UIButton+CSYUtil.m"; sourceTree = "<group>"; };
+		11DF2893CCAD7B112807C7847E19B946 /* LGAlertViewHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewHelper.h; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewHelper.h; sourceTree = "<group>"; };
+		1400B7C08CBFCF14845AE77425DC29E9 /* NSString+CSYUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+CSYUtil.h"; path = "LocalLib/Classes/Utils/NSStringUtil/NSString+CSYUtil.h"; sourceTree = "<group>"; };
+		140361CEC48D7AFDBA97794F1F61CC84 /* UIView+CSYHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CSYHUD.h"; path = "LocalLib/Classes/Utils/UIViewHud/UIView+CSYHUD.h"; sourceTree = "<group>"; };
+		14BF032FF7309561CC23B2BB7E02D799 /* LJPickerDetailDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LJPickerDetailDelegate.h; path = LocalLib/Classes/ThirdLib/LJContactManager/LJPickerDetailDelegate.h; sourceTree = "<group>"; };
+		15212657665FDB40CC039AB73D55B907 /* UIImage+CSYUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+CSYUtil.h"; path = "LocalLib/Classes/Utils/UIImageUtil/UIImage+CSYUtil.h"; sourceTree = "<group>"; };
+		16A422932A1B17C84A61943169016F2B /* LGAlertViewManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewManager.h; path = LocalLib/Classes/Mamager/LGAlertViewManager/LGAlertViewManager.h; sourceTree = "<group>"; };
+		175E93141CE3E0177030FA15302B7637 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LayoutMethods.m"; path = "LocalLib/Classes/Utils/UIView/UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		191D3AAC17F2673EA0E9577D8DEBEC4E /* NSNull+CSYInternalNullExtention.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNull+CSYInternalNullExtention.h"; path = "LocalLib/Classes/Utils/CSYInternalNullExtention/NSNull+CSYInternalNullExtention.h"; sourceTree = "<group>"; };
+		1AAAD3F664715546AE05D7DB5194873E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1AFF8616741438658453BB091C84C36A /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		1D9FEDFD2A89BBDAA975AF700E227B89 /* LGAlertViewTextField.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewTextField.h; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewTextField.h; sourceTree = "<group>"; };
+		1E87F3A1CFDD7AC29B98BE8919CA234B /* LGAlertViewWindowsObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewWindowsObserver.h; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewWindowsObserver.h; sourceTree = "<group>"; };
+		200DDFBAF70C9A060BD181A63FD3E140 /* LocalLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocalLib.release.xcconfig; sourceTree = "<group>"; };
+		20B6261E363240BE6486B35BBA13B425 /* LGAlertViewWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewWindow.m; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewWindow.m; sourceTree = "<group>"; };
+		21CBA4805DDD43B8645E33B2E414991E /* LJContactManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LJContactManager.h; path = LocalLib/Classes/ThirdLib/LJContactManager/LJContactManager.h; sourceTree = "<group>"; };
+		222AC0C2718A02FB2B6384CF222227FF /* Pods-LocalLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		24DD85EEC67BA9C77CFAEDA24A3326D1 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		27C497C2790673361A308411563F194F /* DataDigest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataDigest.h; path = LocalLib/Classes/Utils/DataDigest/DataDigest.h; sourceTree = "<group>"; };
+		29F9082C603E6A7E6E43E9126B8692BC /* KeychainItemWrapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KeychainItemWrapper.m; sourceTree = "<group>"; };
+		2A3D9C03C73F038F45E10E7F08DDF6F3 /* UIWindow+LGAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWindow+LGAlertView.m"; path = "LocalLib/Classes/ThirdLib/LGAlertView/UIWindow+LGAlertView.m"; sourceTree = "<group>"; };
+		2F476CCD53F291C64BB0F078F823E6A0 /* Pods-LocalLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocalLib_Tests.modulemap"; sourceTree = "<group>"; };
+		3141DB372E38028589C93846210C2F68 /* LGAlertViewHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewHelper.m; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewHelper.m; sourceTree = "<group>"; };
+		3271B82A291FC4E69464ACA40FB9A1BB /* LGAlertViewTextField.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewTextField.m; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewTextField.m; sourceTree = "<group>"; };
+		3434A8F9D9829F5A790D8E50007E12D3 /* LGAlertViewButtonProperties.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewButtonProperties.m; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewButtonProperties.m; sourceTree = "<group>"; };
+		3478F7027636C2A2DD90D5776B9C3423 /* LYEmptyView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYEmptyView.h; path = LocalLib/Classes/ThirdLib/LYEmptyView/LYEmptyView.h; sourceTree = "<group>"; };
+		370B00E88D2E83D2620D6CE87840E122 /* WechatOpenSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.release.xcconfig; sourceTree = "<group>"; };
+		375E9B28C5CDCB139187153DE32EBD23 /* DataSecurity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataSecurity.h; path = LocalLib/Classes/Utils/Security/DataSecurity.h; sourceTree = "<group>"; };
+		38EFDEF4F3C2B09969A68D04867DD992 /* LocalLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalLib-umbrella.h"; sourceTree = "<group>"; };
+		3BA59F7AB1EC34177A909D2A7B7D265D /* Pods-LocalLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocalLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E682C6C42B9FB88E53940DD70E3F341 /* UIImage+CSYUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+CSYUtil.m"; path = "LocalLib/Classes/Utils/UIImageUtil/UIImage+CSYUtil.m"; sourceTree = "<group>"; };
+		40D0F441675EB5ED15F68B4DB524A370 /* KeychainItemWrapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KeychainItemWrapper.h; sourceTree = "<group>"; };
+		41D8B9EFD3FB5A08F1247399352B7E82 /* ColorMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ColorMacros.h; path = LocalLib/Classes/Define/ColorMacros/ColorMacros.h; sourceTree = "<group>"; };
+		423140B72035EE4A09B143E203270A10 /* DataDigest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DataDigest.m; path = LocalLib/Classes/Utils/DataDigest/DataDigest.m; sourceTree = "<group>"; };
+		424F4C80A6DB81C205CF9A81DC5652AD /* LocalLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocalLib.debug.xcconfig; sourceTree = "<group>"; };
+		43806D46EBB48238256A9232696B7185 /* LJPeoplePickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LJPeoplePickerDelegate.h; path = LocalLib/Classes/ThirdLib/LJContactManager/LJPeoplePickerDelegate.h; sourceTree = "<group>"; };
+		443FB2049090ED9AC0C950473D656431 /* ChineseToPinyin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChineseToPinyin.h; path = LocalLib/Classes/ThirdLib/LJContactManager/ChineseToPinyin.h; sourceTree = "<group>"; };
+		48C99D0E17E9C6C32E19B3EE9E886B09 /* LGAlertViewShadowView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewShadowView.m; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewShadowView.m; sourceTree = "<group>"; };
+		4A0D7EA89807ED1A417C89F0BCE33BAB /* CSYAliPayManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSYAliPayManager.h; path = LocalLib/Classes/Mamager/AliPayManager/CSYAliPayManager.h; sourceTree = "<group>"; };
+		4D1D8C13DA8441D871D970BA276F268F /* Pods-LocalLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4FF1402074EB6CB08A2FD84B124B1155 /* LocalLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocalLib-Info.plist"; sourceTree = "<group>"; };
+		50CE403F7E27548C0B323F4839468025 /* LJPerson.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LJPerson.m; path = LocalLib/Classes/ThirdLib/LJContactManager/LJPerson.m; sourceTree = "<group>"; };
+		528898B1855419D772D89E34FB19EF05 /* LGAlertViewButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewButton.h; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewButton.h; sourceTree = "<group>"; };
+		52F2F0BD16A5078FA603A43CE795B16E /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		577D136F51BE551819E40ACAE0F944FB /* LGAlertViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewController.h; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewController.h; sourceTree = "<group>"; };
+		57A1077D310D8211ED479167D9F726FF /* FontUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FontUtil.m; path = LocalLib/Classes/Utils/FontUtil/FontUtil.m; sourceTree = "<group>"; };
+		5D087360EE82611A03D1E9F7AB521CA1 /* LGAlertViewWindowsObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewWindowsObserver.m; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewWindowsObserver.m; sourceTree = "<group>"; };
+		5D22BAC98F79286DEB63045075C22BFC /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
 		65F04845234FD42DFB44894276CADFDE /* LocalLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LocalLib.framework; path = LocalLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		664A5A95C192C1C30FC0EE0FBD4405FF /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
-		6A20403E38D94F39946C7A709DAFB72C /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
-		78559999A428276A2B94778972809355 /* Pods-LocalLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocalLib_Tests.modulemap"; sourceTree = "<group>"; };
-		7BD93FF9E35A8EA82143562EDFCE997D /* LocalLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocalLib.release.xcconfig; sourceTree = "<group>"; };
-		8E37CB2E7FE0781EFFC7CB95E7957EA8 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
+		67A81C4FB1407C4B69805E747222F346 /* Pods-LocalLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocalLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		67E3DA33025591237B3E24FE799CB3F0 /* KeyGenerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeyGenerator.m; path = LocalLib/Classes/Utils/KeyGenerator/KeyGenerator.m; sourceTree = "<group>"; };
+		683051399354B851406EF0B46DE67BF8 /* CSYDateUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSYDateUtil.h; path = LocalLib/Classes/Utils/DateUtil/CSYDateUtil.h; sourceTree = "<group>"; };
+		694FB69C97BB83BC7C718853C1782683 /* LYEmptyView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYEmptyView.m; path = LocalLib/Classes/ThirdLib/LYEmptyView/LYEmptyView.m; sourceTree = "<group>"; };
+		6A07CA134F4604C8BB593CAD78FD00CF /* DataKeyChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DataKeyChain.h; path = LocalLib/Classes/Utils/Security/DataKeyChain.h; sourceTree = "<group>"; };
+		6C1475501312196A273CE7064681F0E6 /* UIView+CSYHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CSYHUD.m"; path = "LocalLib/Classes/Utils/UIViewHud/UIView+CSYHUD.m"; sourceTree = "<group>"; };
+		6D6E97DD05BC6C23231A5398BABA2B5D /* LYEmptyBaseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYEmptyBaseView.h; path = LocalLib/Classes/ThirdLib/LYEmptyView/LYEmptyBaseView.h; sourceTree = "<group>"; };
+		703D76EE0D1D4ECDDAC6F0D65D9AC345 /* AlipaySDK-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		71960CC70DB5FA038529CB92C3E7AF68 /* LocalLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocalLib-dummy.m"; sourceTree = "<group>"; };
+		76051D41A501717F1D721886E1DFE028 /* LJPickerDetailDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LJPickerDetailDelegate.m; path = LocalLib/Classes/ThirdLib/LJContactManager/LJPickerDetailDelegate.m; sourceTree = "<group>"; };
+		778B9A8EEF928A0CA22A52ECF2873635 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		78015E6BAA4EE3338F8D239AB720C14E /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		79E7437BA32472151C9BF09EBD757A13 /* UtilMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UtilMacros.h; path = LocalLib/Classes/Define/UtilMacros/UtilMacros.h; sourceTree = "<group>"; };
+		7BEE21A972ADAD89C0113F6F42F0DFAE /* LGAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertView.h; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertView.h; sourceTree = "<group>"; };
+		81A42D089499E48A17C1185C602C3CDB /* LGAlertViewButtonProperties.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewButtonProperties.h; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewButtonProperties.h; sourceTree = "<group>"; };
+		82FF267B4BBBF706C2B50CB94FAE3B79 /* AlipaySDK-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "AlipaySDK-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		83F27C47A1ADC5ECDEC4E2F2B9D7A05A /* LGAlertViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewCell.m; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewCell.m; sourceTree = "<group>"; };
+		840070D3E00B94EC619210C5C44578C6 /* CSYMachineModelName.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSYMachineModelName.h; path = LocalLib/Classes/Utils/MachineModel/CSYMachineModelName.h; sourceTree = "<group>"; };
+		84DA21D27CFB0DF37E5D1B5798BFCA38 /* CSYMachineModelName.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSYMachineModelName.m; path = LocalLib/Classes/Utils/MachineModel/CSYMachineModelName.m; sourceTree = "<group>"; };
+		872D850996A819155403B9272900AD30 /* CSYWechatManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSYWechatManager.h; path = LocalLib/Classes/Mamager/WechatPayManager/CSYWechatManager.h; sourceTree = "<group>"; };
+		88AF3122FFEB671BED5C04ADAA2A3B25 /* FontUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FontUtil.h; path = LocalLib/Classes/Utils/FontUtil/FontUtil.h; sourceTree = "<group>"; };
+		8A8ACEBAADC0881BE2CD6B3232F2FCC2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FE75148B314D35414D34E3801DDB2D2 /* LocalLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LocalLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		940A8D8F91A8B974B65D40465E0D5165 /* UIWindow+LGAlertView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWindow+LGAlertView.h"; path = "LocalLib/Classes/ThirdLib/LGAlertView/UIWindow+LGAlertView.h"; sourceTree = "<group>"; };
+		949E9D961D89530BCDD6B6DD94324FF0 /* Pods-LocalLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocalLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		96806294D3B4E0D4DE17E165635AD8C7 /* ChineseToPinyin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChineseToPinyin.m; path = LocalLib/Classes/ThirdLib/LJContactManager/ChineseToPinyin.m; sourceTree = "<group>"; };
+		97C068939A86EDD6E865DDA83AD6E262 /* LocalLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LocalLib.modulemap; sourceTree = "<group>"; };
+		9CF6941755A2327040326F47E5B91059 /* LGAlertViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewController.m; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewController.m; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A917825DBF727A984FC631B64F77F19F /* LocalLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "LocalLib-Info.plist"; sourceTree = "<group>"; };
-		B37F63DAEA8AB057E8C240F3973E0D61 /* Pods-LocalLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		D0F7F37F70A41D23FD153C2FBCB4B3F3 /* WechatOpenSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WechatOpenSDK.debug.xcconfig; sourceTree = "<group>"; };
-		D2AB31EC86063227A6B11DAD1B32EA8C /* LocalLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LocalLib-dummy.m"; sourceTree = "<group>"; };
-		D70FC617E400955B5B50DF6F8C6E42C9 /* LocalLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalLib-umbrella.h"; sourceTree = "<group>"; };
-		E8235E815BF134419E32DF4B85500DBB /* LocalLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LocalLib.debug.xcconfig; sourceTree = "<group>"; };
-		FC06EC51A2F2071B492FF111B01EF49E /* LocalLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LocalLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A13F1A3B1C94F5C2830C66DBA59B6196 /* DataSecurity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DataSecurity.m; path = LocalLib/Classes/Utils/Security/DataSecurity.m; sourceTree = "<group>"; };
+		A3E55A46BD860BE0CF0DFA6E672C2E39 /* LGAlertView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertView.m; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertView.m; sourceTree = "<group>"; };
+		A8638CE1C3793EC594F03D53D33FBABF /* UIView+Empty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Empty.h"; path = "LocalLib/Classes/ThirdLib/LYEmptyView/UIView+Empty.h"; sourceTree = "<group>"; };
+		A92AC93441C3E3F516FE37CBD545D97C /* UIButton+CSYUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+CSYUtil.h"; path = "LocalLib/Classes/Utils/UIButtonUtil/UIButton+CSYUtil.h"; sourceTree = "<group>"; };
+		AB2C9C22999F0E46EC7E9C4D7138BE28 /* LJContactManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LJContactManager.m; path = LocalLib/Classes/ThirdLib/LJContactManager/LJContactManager.m; sourceTree = "<group>"; };
+		AB6C597EA30DB4857E562EB1D8CC72DD /* Pods-LocalLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocalLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		AD27B1C1B5D2F31F501108838D28EF02 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		AE3DEF0A0446D1DEFB5CF1330004D50B /* UIView+CAShapeLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+CAShapeLayer.h"; path = "LocalLib/Classes/Utils/UIView/UIView+CAShapeLayer.h"; sourceTree = "<group>"; };
+		B105FD58D3221F26779C64132E00E30B /* LJPeoplePickerDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LJPeoplePickerDelegate.m; path = LocalLib/Classes/ThirdLib/LJContactManager/LJPeoplePickerDelegate.m; sourceTree = "<group>"; };
+		B140777D18BEDEBC186B87626B3EF6DA /* NSString+LJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+LJExtension.h"; path = "LocalLib/Classes/ThirdLib/LJContactManager/NSString+LJExtension.h"; sourceTree = "<group>"; };
+		B19D437A95195C0ABEBB7D6275FA3B82 /* NSString+CSYUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+CSYUtil.m"; path = "LocalLib/Classes/Utils/NSStringUtil/NSString+CSYUtil.m"; sourceTree = "<group>"; };
+		B23A6951D1D84A17BC95F5D7D9C534B6 /* LGAlertViewWindowContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewWindowContainer.m; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewWindowContainer.m; sourceTree = "<group>"; };
+		B3404CC963FFB74448CF3DF27E78A0CF /* UIView+LYExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+LYExtension.m"; path = "LocalLib/Classes/ThirdLib/LYEmptyView/UIView+LYExtension.m"; sourceTree = "<group>"; };
+		B3A21AB24BE00FCFF42CDF91F509D941 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = OpenSDK1.8.7.1/WXApiObject.h; sourceTree = "<group>"; };
+		B70D077FCE5D115F96988945504831BE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		BC93C7C01C08B8D542357EABA658C91C /* CSYDateUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSYDateUtil.m; path = LocalLib/Classes/Utils/DateUtil/CSYDateUtil.m; sourceTree = "<group>"; };
+		BE9762EB42E05BEB117AF0BF7B18FB3B /* LGAlertViewWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewWindow.h; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewWindow.h; sourceTree = "<group>"; };
+		C1E2CD7B8E79B299580195F2F8133DD2 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		C273EB4272C53CC1113562833E81675B /* CSYSystemUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSYSystemUtil.h; path = LocalLib/Classes/Utils/SystemUtil/CSYSystemUtil.h; sourceTree = "<group>"; };
+		C322D4CD5D17BE9F47045E884E4BEDA6 /* Pods-LocalLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocalLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		C36112BAF38D99AE0D060B90B3268FC8 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = OpenSDK1.8.7.1/libWeChatSDK.a; sourceTree = "<group>"; };
+		C39F5F9AA0C3D96AE03A4DCDEBDA4978 /* AlipaySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AlipaySDK.framework; sourceTree = "<group>"; };
+		C626CB4735907F57046EA0B3EF9DEE2A /* LGAlertViewShadowView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewShadowView.h; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewShadowView.h; sourceTree = "<group>"; };
+		C74A0F2CAFFBC1B027551E2A647DE318 /* LGAlertViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewCell.h; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewCell.h; sourceTree = "<group>"; };
+		C7C3CEB76BDD5748F61296F47B9643CB /* LGAlertViewManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewManager.m; path = LocalLib/Classes/Mamager/LGAlertViewManager/LGAlertViewManager.m; sourceTree = "<group>"; };
+		C805CD8A61CC646FA61C0B8812BE7CE4 /* UIView+Empty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Empty.m"; path = "LocalLib/Classes/ThirdLib/LYEmptyView/UIView+Empty.m"; sourceTree = "<group>"; };
+		C9A027335423DCA10065D84B1548EF61 /* CSYWechatManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSYWechatManager.m; path = LocalLib/Classes/Mamager/WechatPayManager/CSYWechatManager.m; sourceTree = "<group>"; };
+		CA364A42DDF6D68F8215E4777B6772FD /* LGAlertViewButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LGAlertViewButton.m; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewButton.m; sourceTree = "<group>"; };
+		D2196E1F9BD00CB4EAC866074BC6FB58 /* Pods-LocalLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocalLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D44703A6CC24A52C3F6B21D7D0A23325 /* LYEmptyBaseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LYEmptyBaseView.m; path = LocalLib/Classes/ThirdLib/LYEmptyView/LYEmptyBaseView.m; sourceTree = "<group>"; };
+		D5A950B2682A6F0AA3DD2EA4C322A062 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = OpenSDK1.8.7.1/WechatAuthSDK.h; sourceTree = "<group>"; };
+		D928BBF44BA44414A1EEF7AAE584BABE /* DataKeyChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DataKeyChain.m; path = LocalLib/Classes/Utils/Security/DataKeyChain.m; sourceTree = "<group>"; };
+		DA5BC4DA83EE9F81DE559A78A33F733F /* LGAlertViewWindowContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewWindowContainer.h; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewWindowContainer.h; sourceTree = "<group>"; };
+		DAF65E9F0522F4A194714AA3A093948B /* LocalLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LocalLib-prefix.pch"; sourceTree = "<group>"; };
+		DD4D999120731097B33BDB2F3E0249A8 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		DE466E41F8E6E7BCB5C6407455660408 /* CSYRegexPredicate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSYRegexPredicate.m; path = LocalLib/Classes/Utils/RegexPredicate/CSYRegexPredicate.m; sourceTree = "<group>"; };
+		E26A7DDB89C5028FB46285CEF0772E93 /* CSYFileUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSYFileUtil.m; path = LocalLib/Classes/Utils/FileUtil/CSYFileUtil.m; sourceTree = "<group>"; };
+		E2E6F456B806F6EB207D2C56651C0DD4 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		E39E64830C30CFE554426BFA1AD5A3F9 /* UIView+LYExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+LYExtension.h"; path = "LocalLib/Classes/ThirdLib/LYEmptyView/UIView+LYExtension.h"; sourceTree = "<group>"; };
+		E4DFA09AA97275B780495312BC68D9BE /* NSObject+CSYUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+CSYUtil.m"; path = "LocalLib/Classes/Utils/NSObjectUtil/NSObject+CSYUtil.m"; sourceTree = "<group>"; };
+		E6889689966D2917A59C8406838131AC /* NSNull+CSYInternalNullExtention.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNull+CSYInternalNullExtention.m"; path = "LocalLib/Classes/Utils/CSYInternalNullExtention/NSNull+CSYInternalNullExtention.m"; sourceTree = "<group>"; };
+		E97BE7EF99BCD14864B69DF18A9E8050 /* LGAlertViewShared.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LGAlertViewShared.h; path = LocalLib/Classes/ThirdLib/LGAlertView/LGAlertViewShared.h; sourceTree = "<group>"; };
+		EBDEDDB7E9B3935B620C49F5A13B5F7F /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = OpenSDK1.8.7.1/WXApi.h; sourceTree = "<group>"; };
+		ED2B68CCA1100A09E8E537B35A9A1EAC /* UIView+CAShapeLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+CAShapeLayer.m"; path = "LocalLib/Classes/Utils/UIView/UIView+CAShapeLayer.m"; sourceTree = "<group>"; };
+		EF6827712FE0889A852BBB2332DD5016 /* LJPerson.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LJPerson.h; path = LocalLib/Classes/ThirdLib/LJContactManager/LJPerson.h; sourceTree = "<group>"; };
+		F18AB70B9D476893EBBF66B7980F6757 /* CSYSystemUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CSYSystemUtil.m; path = LocalLib/Classes/Utils/SystemUtil/CSYSystemUtil.m; sourceTree = "<group>"; };
+		F4AC49A3C80C9785DAC846B739146639 /* Pods-LocalLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocalLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F514F52D08E8EA55309930D7821191EC /* CSYDeviceIDTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSYDeviceIDTool.h; path = LocalLib/Classes/Utils/DeviceIDTool/CSYDeviceIDTool.h; sourceTree = "<group>"; };
+		F592DB099E4150267008354AC483FBC8 /* NSString+LJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+LJExtension.m"; path = "LocalLib/Classes/ThirdLib/LJContactManager/NSString+LJExtension.m"; sourceTree = "<group>"; };
+		F63D3F064DDE7B875CF5853B71DF003F /* LYEmptyViewHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LYEmptyViewHeader.h; path = LocalLib/Classes/ThirdLib/LYEmptyView/LYEmptyViewHeader.h; sourceTree = "<group>"; };
+		F7393239CD0D985D4E4B8D4D9CE1B68E /* CSYFileUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CSYFileUtil.h; path = LocalLib/Classes/Utils/FileUtil/CSYFileUtil.h; sourceTree = "<group>"; };
+		FB80B4E042DF3D4142F4C964D268D32C /* AlipaySDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = AlipaySDK.bundle; sourceTree = "<group>"; };
 		FE067EAC90D1DAD61718A064583196CA /* Pods_LocalLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocalLib_Tests.framework; path = "Pods-LocalLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFA51DF58BFD369AF6BE252245A18B2F /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		40020F5097D07480D8519BA004252EDC /* Frameworks */ = {
+		4212142E88078330518BC9D254AA69A6 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1415ABBF468FED351947A99AD1C24564 /* Foundation.framework in Frameworks */,
+				028631334BE7D4BF92A9690ADD155143 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0B97CAB0553279B7FC1F4D14AE56290 /* Frameworks */ = {
+		7B61FE1E92D7A316040FC5E83DD8D901 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9561035E241E73F68ECFD4677913A736 /* Foundation.framework in Frameworks */,
+				0C19A4063781130A6276FA1B07B916D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81AC8E6ACA9CE31043679B7782C07A37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB264D9A9113CFA2D3AC4FC84EAEF96 /* CoreGraphics.framework in Frameworks */,
+				7DFFBA6780C3DA7AAE5CFE8F695C61FC /* Foundation.framework in Frameworks */,
+				159C9CBCBBD28BA0294657292F64A49C /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		31517344673C22476CF1D64B0DFBED3C /* LocalLib */ = {
+		02CAD21AFD7771B9EF3AD646EFE4DE74 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				401C58D9A90C86CF85DE4D85DB5B4ABA /* Pod */,
-				CA8725E5DF12A8578837C199A9373EE9 /* Support Files */,
-				D7D73BA2B56FE2BCA7D107632964B013 /* WechatPayManager */,
+				703D76EE0D1D4ECDDAC6F0D65D9AC345 /* AlipaySDK-iOS.debug.xcconfig */,
+				82FF267B4BBBF706C2B50CB94FAE3B79 /* AlipaySDK-iOS.release.xcconfig */,
 			);
-			name = LocalLib;
-			path = ../..;
+			name = "Support Files";
+			path = "../Target Support Files/AlipaySDK-iOS";
 			sourceTree = "<group>";
 		};
-		3855A1FB6CA5737A04EC922815A386E2 /* Pods-LocalLib_Tests */ = {
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				78559999A428276A2B94778972809355 /* Pods-LocalLib_Tests.modulemap */,
-				246009A6BA83BF2046C219132F1F2BFA /* Pods-LocalLib_Tests-acknowledgements.markdown */,
-				46E51A0C86A17B83AD01C2F8B1ABBA75 /* Pods-LocalLib_Tests-acknowledgements.plist */,
-				5D5C3249C158B91B0F63CE4AA7DF80D6 /* Pods-LocalLib_Tests-dummy.m */,
-				572565F6272AA897CCA87E23515DAA65 /* Pods-LocalLib_Tests-Info.plist */,
-				079346EEDBB31260025CCE81BEE86456 /* Pods-LocalLib_Tests-umbrella.h */,
-				578966CED4999DC4FD3101802A3611A3 /* Pods-LocalLib_Tests.debug.xcconfig */,
-				B37F63DAEA8AB057E8C240F3973E0D61 /* Pods-LocalLib_Tests.release.xcconfig */,
+				F04009B2B08E830E0DAA2A9E1245D6B8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0723DF04BFF169D230850698EDE53003 /* NSObjectUtil */ = {
+			isa = PBXGroup;
+			children = (
+				0DC2AB85A68A8C30A69FA9D57B447F71 /* NSObject+CSYUtil.h */,
+				E4DFA09AA97275B780495312BC68D9BE /* NSObject+CSYUtil.m */,
+			);
+			name = NSObjectUtil;
+			sourceTree = "<group>";
+		};
+		0776E0B9BD02B35603E9E1C9463810C2 /* DeviceIDTool */ = {
+			isa = PBXGroup;
+			children = (
+				F514F52D08E8EA55309930D7821191EC /* CSYDeviceIDTool.h */,
+				0ED683CF6AB6BA14D30C2A1C6EF65374 /* CSYDeviceIDTool.m */,
+				D8272B860875648C5FF46BDC76AB044F /* KeychainItemWrapper */,
+			);
+			name = DeviceIDTool;
+			sourceTree = "<group>";
+		};
+		08BE33D1FE63CBAD9475C97A690754F2 /* CSYInternalNullExtention */ = {
+			isa = PBXGroup;
+			children = (
+				191D3AAC17F2673EA0E9577D8DEBEC4E /* NSNull+CSYInternalNullExtention.h */,
+				E6889689966D2917A59C8406838131AC /* NSNull+CSYInternalNullExtention.m */,
+			);
+			name = CSYInternalNullExtention;
+			sourceTree = "<group>";
+		};
+		1520ED8A6AA19AADA991CEB3414546B9 /* KeyGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				02D78191E1B3F2519437536C6FB31563 /* KeyGenerator.h */,
+				67E3DA33025591237B3E24FE799CB3F0 /* KeyGenerator.m */,
+			);
+			name = KeyGenerator;
+			sourceTree = "<group>";
+		};
+		154222C94812C41F87C97D477F3184A9 /* LYEmptyView */ = {
+			isa = PBXGroup;
+			children = (
+				6D6E97DD05BC6C23231A5398BABA2B5D /* LYEmptyBaseView.h */,
+				D44703A6CC24A52C3F6B21D7D0A23325 /* LYEmptyBaseView.m */,
+				3478F7027636C2A2DD90D5776B9C3423 /* LYEmptyView.h */,
+				694FB69C97BB83BC7C718853C1782683 /* LYEmptyView.m */,
+				F63D3F064DDE7B875CF5853B71DF003F /* LYEmptyViewHeader.h */,
+				A8638CE1C3793EC594F03D53D33FBABF /* UIView+Empty.h */,
+				C805CD8A61CC646FA61C0B8812BE7CE4 /* UIView+Empty.m */,
+				E39E64830C30CFE554426BFA1AD5A3F9 /* UIView+LYExtension.h */,
+				B3404CC963FFB74448CF3DF27E78A0CF /* UIView+LYExtension.m */,
+			);
+			name = LYEmptyView;
+			sourceTree = "<group>";
+		};
+		21BB0D9C32A1FA00CDFDCFB8556F7B6F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				97C068939A86EDD6E865DDA83AD6E262 /* LocalLib.modulemap */,
+				71960CC70DB5FA038529CB92C3E7AF68 /* LocalLib-dummy.m */,
+				4FF1402074EB6CB08A2FD84B124B1155 /* LocalLib-Info.plist */,
+				DAF65E9F0522F4A194714AA3A093948B /* LocalLib-prefix.pch */,
+				38EFDEF4F3C2B09969A68D04867DD992 /* LocalLib-umbrella.h */,
+				424F4C80A6DB81C205CF9A81DC5652AD /* LocalLib.debug.xcconfig */,
+				200DDFBAF70C9A060BD181A63FD3E140 /* LocalLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LocalLib";
+			sourceTree = "<group>";
+		};
+		25EC2E3CCAF58218000F301ED62EEAFB /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				6A07CA134F4604C8BB593CAD78FD00CF /* DataKeyChain.h */,
+				D928BBF44BA44414A1EEF7AAE584BABE /* DataKeyChain.m */,
+				375E9B28C5CDCB139187153DE32EBD23 /* DataSecurity.h */,
+				A13F1A3B1C94F5C2830C66DBA59B6196 /* DataSecurity.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		31AE35254613C6A11945815846F369C8 /* LJContactManager */ = {
+			isa = PBXGroup;
+			children = (
+				443FB2049090ED9AC0C950473D656431 /* ChineseToPinyin.h */,
+				96806294D3B4E0D4DE17E165635AD8C7 /* ChineseToPinyin.m */,
+				21CBA4805DDD43B8645E33B2E414991E /* LJContactManager.h */,
+				AB2C9C22999F0E46EC7E9C4D7138BE28 /* LJContactManager.m */,
+				43806D46EBB48238256A9232696B7185 /* LJPeoplePickerDelegate.h */,
+				B105FD58D3221F26779C64132E00E30B /* LJPeoplePickerDelegate.m */,
+				EF6827712FE0889A852BBB2332DD5016 /* LJPerson.h */,
+				50CE403F7E27548C0B323F4839468025 /* LJPerson.m */,
+				14BF032FF7309561CC23B2BB7E02D799 /* LJPickerDetailDelegate.h */,
+				76051D41A501717F1D721886E1DFE028 /* LJPickerDetailDelegate.m */,
+				B140777D18BEDEBC186B87626B3EF6DA /* NSString+LJExtension.h */,
+				F592DB099E4150267008354AC483FBC8 /* NSString+LJExtension.m */,
+			);
+			name = LJContactManager;
+			sourceTree = "<group>";
+		};
+		3DE032F73AAEE6C1AB44FB3550F2C8F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C36112BAF38D99AE0D060B90B3268FC8 /* libWeChatSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46D65D035F6826EF3482F5080EC8C766 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FB80B4E042DF3D4142F4C964D268D32C /* AlipaySDK.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		5D5CE9CB478A71D63E19B30687E3A108 /* UtilMacros */ = {
+			isa = PBXGroup;
+			children = (
+				79E7437BA32472151C9BF09EBD757A13 /* UtilMacros.h */,
+			);
+			name = UtilMacros;
+			sourceTree = "<group>";
+		};
+		5FCA2D7FA5E773BBA70D10367B3D4FB2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B70D077FCE5D115F96988945504831BE /* LICENSE */,
+				8FE75148B314D35414D34E3801DDB2D2 /* LocalLib.podspec */,
+				1AAAD3F664715546AE05D7DB5194873E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		61B91B8743DB0BD4FBE42A376852D632 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65F04845234FD42DFB44894276CADFDE /* LocalLib.framework */,
+				8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */,
+				FE067EAC90D1DAD61718A064583196CA /* Pods_LocalLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6282DC2AC9C20AAC7741735EF36B73C5 /* AlipaySDK-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A6DCE14F98353E33021AD8CC753C3860 /* Frameworks */,
+				46D65D035F6826EF3482F5080EC8C766 /* Resources */,
+				02CAD21AFD7771B9EF3AD646EFE4DE74 /* Support Files */,
+			);
+			name = "AlipaySDK-iOS";
+			path = "AlipaySDK-iOS";
+			sourceTree = "<group>";
+		};
+		7402737461D71F5E3DAD8C4277F573C9 /* MachineModel */ = {
+			isa = PBXGroup;
+			children = (
+				840070D3E00B94EC619210C5C44578C6 /* CSYMachineModelName.h */,
+				84DA21D27CFB0DF37E5D1B5798BFCA38 /* CSYMachineModelName.m */,
+			);
+			name = MachineModel;
+			sourceTree = "<group>";
+		};
+		7691C1F3453F954DC0245F4998721B17 /* Pods-LocalLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				2F476CCD53F291C64BB0F078F823E6A0 /* Pods-LocalLib_Tests.modulemap */,
+				3BA59F7AB1EC34177A909D2A7B7D265D /* Pods-LocalLib_Tests-acknowledgements.markdown */,
+				4D1D8C13DA8441D871D970BA276F268F /* Pods-LocalLib_Tests-acknowledgements.plist */,
+				AB6C597EA30DB4857E562EB1D8CC72DD /* Pods-LocalLib_Tests-dummy.m */,
+				C322D4CD5D17BE9F47045E884E4BEDA6 /* Pods-LocalLib_Tests-frameworks.sh */,
+				949E9D961D89530BCDD6B6DD94324FF0 /* Pods-LocalLib_Tests-Info.plist */,
+				67A81C4FB1407C4B69805E747222F346 /* Pods-LocalLib_Tests-resources.sh */,
+				F4AC49A3C80C9785DAC846B739146639 /* Pods-LocalLib_Tests-umbrella.h */,
+				222AC0C2718A02FB2B6384CF222227FF /* Pods-LocalLib_Tests.debug.xcconfig */,
+				D2196E1F9BD00CB4EAC866074BC6FB58 /* Pods-LocalLib_Tests.release.xcconfig */,
 			);
 			name = "Pods-LocalLib_Tests";
 			path = "Target Support Files/Pods-LocalLib_Tests";
 			sourceTree = "<group>";
 		};
-		401C58D9A90C86CF85DE4D85DB5B4ABA /* Pod */ = {
+		7A4E6F72E82B7187E71E84F05314C788 /* FileUtil */ = {
 			isa = PBXGroup;
 			children = (
-				24C6131A15F518CBD05879D0072C11A0 /* LICENSE */,
-				FC06EC51A2F2071B492FF111B01EF49E /* LocalLib.podspec */,
-				48000423D1B29D62F08085659A1F44C7 /* README.md */,
+				F7393239CD0D985D4E4B8D4D9CE1B68E /* CSYFileUtil.h */,
+				E26A7DDB89C5028FB46285CEF0772E93 /* CSYFileUtil.m */,
 			);
-			name = Pod;
+			name = FileUtil;
 			sourceTree = "<group>";
 		};
-		4EFCC29DB2A6B75D10AE3E12DE6146E9 /* WechatOpenSDK */ = {
+		832204D8EDDEC35C7967E0AFDFAAE5E2 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				6A20403E38D94F39946C7A709DAFB72C /* WechatAuthSDK.h */,
-				664A5A95C192C1C30FC0EE0FBD4405FF /* WXApi.h */,
-				8E37CB2E7FE0781EFFC7CB95E7957EA8 /* WXApiObject.h */,
-				8A0B8B0F8341A04CA487D2802F707FE8 /* Frameworks */,
-				63F7E62AC6F50D87E09A5929874B8F74 /* Support Files */,
+				78015E6BAA4EE3338F8D239AB720C14E /* MBProgressHUD.h */,
+				778B9A8EEF928A0CA22A52ECF2873635 /* MBProgressHUD.m */,
+				BD5CF2A3A1E66D8263C40907019140E7 /* Support Files */,
 			);
-			name = WechatOpenSDK;
-			path = WechatOpenSDK;
+			name = MBProgressHUD;
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		50EFD36495740D96CFBB739E4D547B16 /* Development Pods */ = {
+		8D9544BBA72F750FA014017E83D1AFCA /* FontUtil */ = {
 			isa = PBXGroup;
 			children = (
-				31517344673C22476CF1D64B0DFBED3C /* LocalLib */,
+				88AF3122FFEB671BED5C04ADAA2A3B25 /* FontUtil.h */,
+				57A1077D310D8211ED479167D9F726FF /* FontUtil.m */,
 			);
-			name = "Development Pods";
+			name = FontUtil;
 			sourceTree = "<group>";
 		};
-		52C06D29DE8A74D8B72B83758947D95F /* Pods */ = {
+		8DE39ABB998A7F131AF5C2EAA79B5B90 /* LocalLib */ = {
 			isa = PBXGroup;
 			children = (
-				4EFCC29DB2A6B75D10AE3E12DE6146E9 /* WechatOpenSDK */,
+				F76ECDC946A73AA5F3350D67D630CAE3 /* AliPayManager */,
+				E65D68778D82B2C6D8776C66F5C0061E /* ColorMacros */,
+				08BE33D1FE63CBAD9475C97A690754F2 /* CSYInternalNullExtention */,
+				E8354C918255D9A392E0C9B7FCCF85B2 /* DataDigest */,
+				DE67828B629770EDF8AE1AFC940EBA68 /* DateUtil */,
+				0776E0B9BD02B35603E9E1C9463810C2 /* DeviceIDTool */,
+				7A4E6F72E82B7187E71E84F05314C788 /* FileUtil */,
+				8D9544BBA72F750FA014017E83D1AFCA /* FontUtil */,
+				1520ED8A6AA19AADA991CEB3414546B9 /* KeyGenerator */,
+				E7BCC7A589E57643203592178CF0C616 /* LGAlertView */,
+				CCD7C560C30E7C1E94AB9AC59A1E1E5B /* LGAlertViewManager */,
+				31AE35254613C6A11945815846F369C8 /* LJContactManager */,
+				154222C94812C41F87C97D477F3184A9 /* LYEmptyView */,
+				7402737461D71F5E3DAD8C4277F573C9 /* MachineModel */,
+				0723DF04BFF169D230850698EDE53003 /* NSObjectUtil */,
+				B6561C008D24D4400FE4E572A68BDE9A /* NSStringUtil */,
+				5FCA2D7FA5E773BBA70D10367B3D4FB2 /* Pod */,
+				E8991642FC9931D4BA5DC1863E5ABBDA /* RegexPredicate */,
+				25EC2E3CCAF58218000F301ED62EEAFB /* Security */,
+				21BB0D9C32A1FA00CDFDCFB8556F7B6F /* Support Files */,
+				BF801D391D71A2680E903B8CCE467DA9 /* SystemUtil */,
+				920068E56E09BE9E7EF57A3F2BC60C0A /* UIButtonUtil */,
+				BDE01B54B2E4BA7AFFF9840801BCB15A /* UIImageUtil */,
+				FF36F5E4331EBF1F074A6702CA1DD1B7 /* UIView */,
+				A0990C8D7F9B0EF1C9A678165B7F55D9 /* UIViewHud */,
+				5D5CE9CB478A71D63E19B30687E3A108 /* UtilMacros */,
+				F1AB1AB3ED00D73DCCBA209D2D748EEB /* WechatPayManager */,
 			);
-			name = Pods;
+			name = LocalLib;
+			path = ../..;
 			sourceTree = "<group>";
 		};
-		63F7E62AC6F50D87E09A5929874B8F74 /* Support Files */ = {
+		920068E56E09BE9E7EF57A3F2BC60C0A /* UIButtonUtil */ = {
 			isa = PBXGroup;
 			children = (
-				D0F7F37F70A41D23FD153C2FBCB4B3F3 /* WechatOpenSDK.debug.xcconfig */,
-				3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */,
+				A92AC93441C3E3F516FE37CBD545D97C /* UIButton+CSYUtil.h */,
+				10DBE4A2FE4D8F0A16FF456677A20B33 /* UIButton+CSYUtil.m */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/WechatOpenSDK";
+			name = UIButtonUtil;
 			sourceTree = "<group>";
 		};
-		68F2AD15B8FDB8BB3BEBBA71E09E382C /* Targets Support Files */ = {
+		A0990C8D7F9B0EF1C9A678165B7F55D9 /* UIViewHud */ = {
 			isa = PBXGroup;
 			children = (
-				3855A1FB6CA5737A04EC922815A386E2 /* Pods-LocalLib_Tests */,
+				140361CEC48D7AFDBA97794F1F61CC84 /* UIView+CSYHUD.h */,
+				6C1475501312196A273CE7064681F0E6 /* UIView+CSYHUD.m */,
 			);
-			name = "Targets Support Files";
+			name = UIViewHud;
 			sourceTree = "<group>";
 		};
-		8A0B8B0F8341A04CA487D2802F707FE8 /* Frameworks */ = {
+		A6DCE14F98353E33021AD8CC753C3860 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				30BDAE1B5E0C61D231041F45D886AC95 /* libWeChatSDK.a */,
+				C39F5F9AA0C3D96AE03A4DCDEBDA4978 /* AlipaySDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+		AE32072A0E7FECFB527C9266D8F968B7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+				8DE39ABB998A7F131AF5C2EAA79B5B90 /* LocalLib */,
 			);
-			name = iOS;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		CA8725E5DF12A8578837C199A9373EE9 /* Support Files */ = {
+		B6561C008D24D4400FE4E572A68BDE9A /* NSStringUtil */ = {
 			isa = PBXGroup;
 			children = (
-				504EBF70452C99A918E0A79F28AB31C1 /* LocalLib.modulemap */,
-				D2AB31EC86063227A6B11DAD1B32EA8C /* LocalLib-dummy.m */,
-				A917825DBF727A984FC631B64F77F19F /* LocalLib-Info.plist */,
-				2A62B097C6B20415062AAC90560B03A6 /* LocalLib-prefix.pch */,
-				D70FC617E400955B5B50DF6F8C6E42C9 /* LocalLib-umbrella.h */,
-				E8235E815BF134419E32DF4B85500DBB /* LocalLib.debug.xcconfig */,
-				7BD93FF9E35A8EA82143562EDFCE997D /* LocalLib.release.xcconfig */,
+				1400B7C08CBFCF14845AE77425DC29E9 /* NSString+CSYUtil.h */,
+				B19D437A95195C0ABEBB7D6275FA3B82 /* NSString+CSYUtil.m */,
+			);
+			name = NSStringUtil;
+			sourceTree = "<group>";
+		};
+		BD5CF2A3A1E66D8263C40907019140E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0457A88FB19BDE78BABF957C90961E5F /* MBProgressHUD.modulemap */,
+				DD4D999120731097B33BDB2F3E0249A8 /* MBProgressHUD-dummy.m */,
+				E2E6F456B806F6EB207D2C56651C0DD4 /* MBProgressHUD-Info.plist */,
+				C1E2CD7B8E79B299580195F2F8133DD2 /* MBProgressHUD-prefix.pch */,
+				24DD85EEC67BA9C77CFAEDA24A3326D1 /* MBProgressHUD-umbrella.h */,
+				1AFF8616741438658453BB091C84C36A /* MBProgressHUD.debug.xcconfig */,
+				52F2F0BD16A5078FA603A43CE795B16E /* MBProgressHUD.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "Example/Pods/Target Support Files/LocalLib";
+			path = "../Target Support Files/MBProgressHUD";
+			sourceTree = "<group>";
+		};
+		BDE01B54B2E4BA7AFFF9840801BCB15A /* UIImageUtil */ = {
+			isa = PBXGroup;
+			children = (
+				15212657665FDB40CC039AB73D55B907 /* UIImage+CSYUtil.h */,
+				3E682C6C42B9FB88E53940DD70E3F341 /* UIImage+CSYUtil.m */,
+			);
+			name = UIImageUtil;
+			sourceTree = "<group>";
+		};
+		BF801D391D71A2680E903B8CCE467DA9 /* SystemUtil */ = {
+			isa = PBXGroup;
+			children = (
+				C273EB4272C53CC1113562833E81675B /* CSYSystemUtil.h */,
+				F18AB70B9D476893EBBF66B7980F6757 /* CSYSystemUtil.m */,
+			);
+			name = SystemUtil;
+			sourceTree = "<group>";
+		};
+		CCD7C560C30E7C1E94AB9AC59A1E1E5B /* LGAlertViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				16A422932A1B17C84A61943169016F2B /* LGAlertViewManager.h */,
+				C7C3CEB76BDD5748F61296F47B9643CB /* LGAlertViewManager.m */,
+			);
+			name = LGAlertViewManager;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				50EFD36495740D96CFBB739E4D547B16 /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				52C06D29DE8A74D8B72B83758947D95F /* Pods */,
-				D15782AECAB2EDA3633829C13227B063 /* Products */,
-				68F2AD15B8FDB8BB3BEBBA71E09E382C /* Targets Support Files */,
+				AE32072A0E7FECFB527C9266D8F968B7 /* Development Pods */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				FACEC73013036F269B0D97524353DCFB /* Pods */,
+				61B91B8743DB0BD4FBE42A376852D632 /* Products */,
+				D80DF8C61A4EA862D0C2D3863A255E92 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D15782AECAB2EDA3633829C13227B063 /* Products */ = {
+		D80DF8C61A4EA862D0C2D3863A255E92 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				65F04845234FD42DFB44894276CADFDE /* LocalLib.framework */,
-				FE067EAC90D1DAD61718A064583196CA /* Pods_LocalLib_Tests.framework */,
+				7691C1F3453F954DC0245F4998721B17 /* Pods-LocalLib_Tests */,
 			);
-			name = Products;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D8272B860875648C5FF46BDC76AB044F /* KeychainItemWrapper */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				40D0F441675EB5ED15F68B4DB524A370 /* KeychainItemWrapper.h */,
+				29F9082C603E6A7E6E43E9126B8692BC /* KeychainItemWrapper.m */,
 			);
-			name = Frameworks;
+			name = KeychainItemWrapper;
+			path = LocalLib/Classes/Utils/DeviceIDTool/KeychainItemWrapper;
 			sourceTree = "<group>";
 		};
-		D7D73BA2B56FE2BCA7D107632964B013 /* WechatPayManager */ = {
+		DE67828B629770EDF8AE1AFC940EBA68 /* DateUtil */ = {
 			isa = PBXGroup;
 			children = (
-				07E9529F69658BB288C666B336280F74 /* CSYWechatManager.h */,
-				14D83A65C2CD30903F57A7206FF3FE39 /* CSYWechatManager.m */,
+				683051399354B851406EF0B46DE67BF8 /* CSYDateUtil.h */,
+				BC93C7C01C08B8D542357EABA658C91C /* CSYDateUtil.m */,
+			);
+			name = DateUtil;
+			sourceTree = "<group>";
+		};
+		E4AD641FD2728A93463CCBB49BB6CACB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D22BAC98F79286DEB63045075C22BFC /* WechatOpenSDK.debug.xcconfig */,
+				370B00E88D2E83D2620D6CE87840E122 /* WechatOpenSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WechatOpenSDK";
+			sourceTree = "<group>";
+		};
+		E65D68778D82B2C6D8776C66F5C0061E /* ColorMacros */ = {
+			isa = PBXGroup;
+			children = (
+				41D8B9EFD3FB5A08F1247399352B7E82 /* ColorMacros.h */,
+			);
+			name = ColorMacros;
+			sourceTree = "<group>";
+		};
+		E7BCC7A589E57643203592178CF0C616 /* LGAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				7BEE21A972ADAD89C0113F6F42F0DFAE /* LGAlertView.h */,
+				A3E55A46BD860BE0CF0DFA6E672C2E39 /* LGAlertView.m */,
+				528898B1855419D772D89E34FB19EF05 /* LGAlertViewButton.h */,
+				CA364A42DDF6D68F8215E4777B6772FD /* LGAlertViewButton.m */,
+				81A42D089499E48A17C1185C602C3CDB /* LGAlertViewButtonProperties.h */,
+				3434A8F9D9829F5A790D8E50007E12D3 /* LGAlertViewButtonProperties.m */,
+				C74A0F2CAFFBC1B027551E2A647DE318 /* LGAlertViewCell.h */,
+				83F27C47A1ADC5ECDEC4E2F2B9D7A05A /* LGAlertViewCell.m */,
+				577D136F51BE551819E40ACAE0F944FB /* LGAlertViewController.h */,
+				9CF6941755A2327040326F47E5B91059 /* LGAlertViewController.m */,
+				11DF2893CCAD7B112807C7847E19B946 /* LGAlertViewHelper.h */,
+				3141DB372E38028589C93846210C2F68 /* LGAlertViewHelper.m */,
+				C626CB4735907F57046EA0B3EF9DEE2A /* LGAlertViewShadowView.h */,
+				48C99D0E17E9C6C32E19B3EE9E886B09 /* LGAlertViewShadowView.m */,
+				E97BE7EF99BCD14864B69DF18A9E8050 /* LGAlertViewShared.h */,
+				1D9FEDFD2A89BBDAA975AF700E227B89 /* LGAlertViewTextField.h */,
+				3271B82A291FC4E69464ACA40FB9A1BB /* LGAlertViewTextField.m */,
+				BE9762EB42E05BEB117AF0BF7B18FB3B /* LGAlertViewWindow.h */,
+				20B6261E363240BE6486B35BBA13B425 /* LGAlertViewWindow.m */,
+				DA5BC4DA83EE9F81DE559A78A33F733F /* LGAlertViewWindowContainer.h */,
+				B23A6951D1D84A17BC95F5D7D9C534B6 /* LGAlertViewWindowContainer.m */,
+				1E87F3A1CFDD7AC29B98BE8919CA234B /* LGAlertViewWindowsObserver.h */,
+				5D087360EE82611A03D1E9F7AB521CA1 /* LGAlertViewWindowsObserver.m */,
+				940A8D8F91A8B974B65D40465E0D5165 /* UIWindow+LGAlertView.h */,
+				2A3D9C03C73F038F45E10E7F08DDF6F3 /* UIWindow+LGAlertView.m */,
+			);
+			name = LGAlertView;
+			sourceTree = "<group>";
+		};
+		E8354C918255D9A392E0C9B7FCCF85B2 /* DataDigest */ = {
+			isa = PBXGroup;
+			children = (
+				27C497C2790673361A308411563F194F /* DataDigest.h */,
+				423140B72035EE4A09B143E203270A10 /* DataDigest.m */,
+			);
+			name = DataDigest;
+			sourceTree = "<group>";
+		};
+		E8991642FC9931D4BA5DC1863E5ABBDA /* RegexPredicate */ = {
+			isa = PBXGroup;
+			children = (
+				0F715400E935491C2079F23B435D9065 /* CSYRegexPredicate.h */,
+				DE466E41F8E6E7BCB5C6407455660408 /* CSYRegexPredicate.m */,
+				0976A2A76F9FD09F9329BDBC8DFADA76 /* CSYRegexString.h */,
+			);
+			name = RegexPredicate;
+			sourceTree = "<group>";
+		};
+		F04009B2B08E830E0DAA2A9E1245D6B8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AD27B1C1B5D2F31F501108838D28EF02 /* CoreGraphics.framework */,
+				8A8ACEBAADC0881BE2CD6B3232F2FCC2 /* Foundation.framework */,
+				FFA51DF58BFD369AF6BE252245A18B2F /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F1AB1AB3ED00D73DCCBA209D2D748EEB /* WechatPayManager */ = {
+			isa = PBXGroup;
+			children = (
+				872D850996A819155403B9272900AD30 /* CSYWechatManager.h */,
+				C9A027335423DCA10065D84B1548EF61 /* CSYWechatManager.m */,
 			);
 			name = WechatPayManager;
+			sourceTree = "<group>";
+		};
+		F5D77DB95391ADC0D3D1BC13DD30EFC5 /* WechatOpenSDK */ = {
+			isa = PBXGroup;
+			children = (
+				D5A950B2682A6F0AA3DD2EA4C322A062 /* WechatAuthSDK.h */,
+				EBDEDDB7E9B3935B620C49F5A13B5F7F /* WXApi.h */,
+				B3A21AB24BE00FCFF42CDF91F509D941 /* WXApiObject.h */,
+				3DE032F73AAEE6C1AB44FB3550F2C8F4 /* Frameworks */,
+				E4AD641FD2728A93463CCBB49BB6CACB /* Support Files */,
+			);
+			name = WechatOpenSDK;
+			path = WechatOpenSDK;
+			sourceTree = "<group>";
+		};
+		F76ECDC946A73AA5F3350D67D630CAE3 /* AliPayManager */ = {
+			isa = PBXGroup;
+			children = (
+				4A0D7EA89807ED1A417C89F0BCE33BAB /* CSYAliPayManager.h */,
+				035920F5207DDB24C12083C65C6705B3 /* CSYAliPayManager.m */,
+			);
+			name = AliPayManager;
+			sourceTree = "<group>";
+		};
+		FACEC73013036F269B0D97524353DCFB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6282DC2AC9C20AAC7741735EF36B73C5 /* AlipaySDK-iOS */,
+				832204D8EDDEC35C7967E0AFDFAAE5E2 /* MBProgressHUD */,
+				F5D77DB95391ADC0D3D1BC13DD30EFC5 /* WechatOpenSDK */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FF36F5E4331EBF1F074A6702CA1DD1B7 /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				AE3DEF0A0446D1DEFB5CF1330004D50B /* UIView+CAShapeLayer.h */,
+				ED2B68CCA1100A09E8E537B35A9A1EAC /* UIView+CAShapeLayer.m */,
+				0D470517B55FFD1C6FBC5D5BEBCACAB5 /* UIView+LayoutMethods.h */,
+				175E93141CE3E0177030FA15302B7637 /* UIView+LayoutMethods.m */,
+			);
+			name = UIView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		ADAB64994E17A668662DFDDB23A36F8A /* Headers */ = {
+		34A568C2B97A17B8321C43F3EB5B8077 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1207323243CF075A1AFB619A19451CB /* CSYWechatManager.h in Headers */,
-				5DCBB8040BC90A778904D8018146D4F1 /* LocalLib-umbrella.h in Headers */,
+				B05E7CB7AA87C5988500AB98B3E4B2B5 /* Pods-LocalLib_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE7404AC25EDD61DF00852F133A8CC01 /* Headers */ = {
+		B555C133BE641D4258997C84F755C158 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5246989387AE262C460CCEEE5C6294B5 /* Pods-LocalLib_Tests-umbrella.h in Headers */,
+				8D5544F819D1DDD239E69DBE5EE05B35 /* ChineseToPinyin.h in Headers */,
+				B788ABD6BC0D873784EED3C221C1E206 /* ColorMacros.h in Headers */,
+				9D279A479F8C8D07F407F2E0FB9B47D7 /* CSYAliPayManager.h in Headers */,
+				F1937D8E4DB981E148A823A3893473FE /* CSYDateUtil.h in Headers */,
+				AD349977BB9C028569C37B3FC0F4BF8A /* CSYDeviceIDTool.h in Headers */,
+				C9127F164A968AC7378D57E1615B58BD /* CSYFileUtil.h in Headers */,
+				41E5B85BFD8B3550972427A8A9009099 /* CSYMachineModelName.h in Headers */,
+				682EC76C21A61E37AD915199FC8F14D1 /* CSYRegexPredicate.h in Headers */,
+				347604B5E654E0B38910822927308D41 /* CSYRegexString.h in Headers */,
+				6214DB8B92F09BFBAB5FE515B8065724 /* CSYSystemUtil.h in Headers */,
+				CF9CACC8E9BB1CCB1BBDF3569A2F8D47 /* CSYWechatManager.h in Headers */,
+				0E62ECEE3326A941AE928132C22F54CE /* DataDigest.h in Headers */,
+				E2DD0E553054BE850A24FC372B8AA249 /* DataKeyChain.h in Headers */,
+				C73BC300D9512C73987990EACF2F8CBA /* DataSecurity.h in Headers */,
+				BB76D5494D0A2DA517B9058B03288751 /* FontUtil.h in Headers */,
+				1889CC02349190DD28B9EB20936A4033 /* KeychainItemWrapper.h in Headers */,
+				4654F0105FF34B49112C8AA8EC32BD3E /* KeyGenerator.h in Headers */,
+				496C549E610BDF20DC6241AA15183763 /* LGAlertView.h in Headers */,
+				35D2B5562ACE0484CEB721CB2C466957 /* LGAlertViewButton.h in Headers */,
+				8F16C7AD0826BD50291A62D46662762C /* LGAlertViewButtonProperties.h in Headers */,
+				A88FE7EDB14F7152F899B1D14339BC24 /* LGAlertViewCell.h in Headers */,
+				E558CDD59F1B1483BCD90226995E294C /* LGAlertViewController.h in Headers */,
+				CB427069A9DE615649E27D70BD40E297 /* LGAlertViewHelper.h in Headers */,
+				CCCFE75D0D99398BB603506D57009763 /* LGAlertViewManager.h in Headers */,
+				CA098D453515B8241C48314902B172AC /* LGAlertViewShadowView.h in Headers */,
+				CC65D2718A48A29C8725C288D5B55C0A /* LGAlertViewShared.h in Headers */,
+				22255EEAE5A878ED754AE07B248BA5FF /* LGAlertViewTextField.h in Headers */,
+				264A02A8257FD98A57F1C53906AF25AA /* LGAlertViewWindow.h in Headers */,
+				0FD7E8FAB882FE0A775F3F96EBFBFD2E /* LGAlertViewWindowContainer.h in Headers */,
+				9F7246F38939ECFF9D141CE0EAE001C8 /* LGAlertViewWindowsObserver.h in Headers */,
+				4A3D786FF0B45A292613B92BAB018D62 /* LJContactManager.h in Headers */,
+				F53995760C7A8BBF1B91350206ABAB22 /* LJPeoplePickerDelegate.h in Headers */,
+				3799BB18C35FA5F5113EF6515DCF10E1 /* LJPerson.h in Headers */,
+				DAAAE7884169E3EFD16A826116324A9E /* LJPickerDetailDelegate.h in Headers */,
+				9533F1676C9D7F17171C52A37FBD0EB3 /* LocalLib-umbrella.h in Headers */,
+				402CF2804A8BDD09EC52779DE6FB328E /* LYEmptyBaseView.h in Headers */,
+				66CE5177A4861337FFC7450DB6722336 /* LYEmptyView.h in Headers */,
+				1A5EC374C6F3F95FA2C724FAA591DCAE /* LYEmptyViewHeader.h in Headers */,
+				00EA13F4FAD84BF24898015CE79104FB /* NSNull+CSYInternalNullExtention.h in Headers */,
+				A63117521A665947A44A73B2FC0BCD70 /* NSObject+CSYUtil.h in Headers */,
+				49D9E4D67716E1530FB01A97F7131F2D /* NSString+CSYUtil.h in Headers */,
+				37587E40CB220F1C45939A33731BBE2D /* NSString+LJExtension.h in Headers */,
+				7E59028407B6B8457AACB6A32B3337D1 /* UIButton+CSYUtil.h in Headers */,
+				E21EA0BE2B837733B7E0EC1EB6C4B942 /* UIImage+CSYUtil.h in Headers */,
+				E772711FDDBF2219C602FE6EC95B3E9F /* UIView+CAShapeLayer.h in Headers */,
+				7ACD55EBBBF28AE898B48DF32B40DFC9 /* UIView+CSYHUD.h in Headers */,
+				CA3741819AADF07C89E6F597984D4705 /* UIView+Empty.h in Headers */,
+				81CA9DE29FB76D2E474D074287FC687E /* UIView+LayoutMethods.h in Headers */,
+				8423B7D010B1186B3BBBF284610CF22A /* UIView+LYExtension.h in Headers */,
+				283CF08154ED9A662C07F3171691914F /* UIWindow+LGAlertView.h in Headers */,
+				C1DA623B5F9B770EE7D5C61C81983CD9 /* UtilMacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D487249B78A0577625511168B8E9C768 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64A69C1A61E1E5456CEB3729DCA5EFAC /* MBProgressHUD-umbrella.h in Headers */,
+				F94BBA1CA96A5E87E6FD04750386DD4F /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,18 +964,20 @@
 /* Begin PBXNativeTarget section */
 		3BA8FADE09028DAD3C5C47A1D65A3679 /* Pods-LocalLib_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A1B9F2DF53473974A667277942C95039 /* Build configuration list for PBXNativeTarget "Pods-LocalLib_Tests" */;
+			buildConfigurationList = DA0A1554199126F6F7D73AE35B073101 /* Build configuration list for PBXNativeTarget "Pods-LocalLib_Tests" */;
 			buildPhases = (
-				CE7404AC25EDD61DF00852F133A8CC01 /* Headers */,
-				B658090174C9E914B0B118FF44011BDB /* Sources */,
-				C0B97CAB0553279B7FC1F4D14AE56290 /* Frameworks */,
-				95611E848EBF39D11BBDEFC2B62557DD /* Resources */,
+				34A568C2B97A17B8321C43F3EB5B8077 /* Headers */,
+				F4A96390DF39DF49944281DBF26BF303 /* Sources */,
+				7B61FE1E92D7A316040FC5E83DD8D901 /* Frameworks */,
+				92E39921309FF6D009866811AF647E11 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				B3B8211E0AB193E8B99B3A4A3838DA3C /* PBXTargetDependency */,
-				8F661CE9912A5E0FA771E1732CCFF968 /* PBXTargetDependency */,
+				B5F7FC5050AF66FDD0F138A89461EF01 /* PBXTargetDependency */,
+				00E3E8A258F53D812736AB2621B22135 /* PBXTargetDependency */,
+				70D92A4FFB14DE72C3ED42BC40192236 /* PBXTargetDependency */,
+				B8D3FFD5BBAF685C9F8EF9E90CB537E4 /* PBXTargetDependency */,
 			);
 			name = "Pods-LocalLib_Tests";
 			productName = "Pods-LocalLib_Tests";
@@ -304,21 +986,41 @@
 		};
 		7E6F88ACAF2F0C23B93D0531C30A186C /* LocalLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97C341D26F7D884C15417F76476E6C35 /* Build configuration list for PBXNativeTarget "LocalLib" */;
+			buildConfigurationList = 389DF69C18C4E83D1890FC2C9CCC6DCB /* Build configuration list for PBXNativeTarget "LocalLib" */;
 			buildPhases = (
-				ADAB64994E17A668662DFDDB23A36F8A /* Headers */,
-				BDEF3C2F459100A3F930F3E1954D336F /* Sources */,
-				40020F5097D07480D8519BA004252EDC /* Frameworks */,
-				6F3C3E9754DE7B4C41BB8909AE4809C8 /* Resources */,
+				B555C133BE641D4258997C84F755C158 /* Headers */,
+				8699A001D6E7EE36036FC3E8C6A75370 /* Sources */,
+				4212142E88078330518BC9D254AA69A6 /* Frameworks */,
+				08346307D1E97F63734E9D6AD354EC68 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				0200CED3195D01A5062B72AC7441770A /* PBXTargetDependency */,
+				424E1233D9B6FFCBF86B4A46F1E6F894 /* PBXTargetDependency */,
+				33613EC3128EB229FE6E4DFA1264F327 /* PBXTargetDependency */,
+				08E146E4C058009D9ACF6E8A024E339C /* PBXTargetDependency */,
 			);
 			name = LocalLib;
 			productName = LocalLib;
 			productReference = 65F04845234FD42DFB44894276CADFDE /* LocalLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 70614039D35D061BE333189DF9421AF5 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
+			buildPhases = (
+				D487249B78A0577625511168B8E9C768 /* Headers */,
+				C5E254CEF3CB13158C80F0AD20AB5A5C /* Sources */,
+				81AC8E6ACA9CE31043679B7782C07A37 /* Frameworks */,
+				1C39C836005C162B1CFBD5E043863DBC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MBProgressHUD;
+			productName = MBProgressHUD;
+			productReference = 8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -339,11 +1041,13 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = D15782AECAB2EDA3633829C13227B063 /* Products */;
+			productRefGroup = 61B91B8743DB0BD4FBE42A376852D632 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */,
 				7E6F88ACAF2F0C23B93D0531C30A186C /* LocalLib */,
+				82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */,
 				3BA8FADE09028DAD3C5C47A1D65A3679 /* Pods-LocalLib_Tests */,
 				8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */,
 			);
@@ -351,14 +1055,21 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6F3C3E9754DE7B4C41BB8909AE4809C8 /* Resources */ = {
+		08346307D1E97F63734E9D6AD354EC68 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		95611E848EBF39D11BBDEFC2B62557DD /* Resources */ = {
+		1C39C836005C162B1CFBD5E043863DBC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92E39921309FF6D009866811AF647E11 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -368,83 +1079,127 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B658090174C9E914B0B118FF44011BDB /* Sources */ = {
+		8699A001D6E7EE36036FC3E8C6A75370 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				693DFADBCF2916C666EA2EC7C25129D8 /* Pods-LocalLib_Tests-dummy.m in Sources */,
+				2A5861A5F542D605940489D34CF4D9AB /* ChineseToPinyin.m in Sources */,
+				EE0284AA3B67FFD11BA317145EDA0EE7 /* CSYAliPayManager.m in Sources */,
+				A577C3DE173702A10E2723D3C70E4A62 /* CSYDateUtil.m in Sources */,
+				4036DDEC6D4F306D6B9A544D233D2AE4 /* CSYDeviceIDTool.m in Sources */,
+				F9EE4B9D5C779C968AA7632CD528E818 /* CSYFileUtil.m in Sources */,
+				39E793B420F808A53A9899A32C406D7C /* CSYMachineModelName.m in Sources */,
+				CC03C6F78768C1E68DB592F4810788C0 /* CSYRegexPredicate.m in Sources */,
+				91FD765FF27BD3A3EDE7A84B34087F6D /* CSYSystemUtil.m in Sources */,
+				A2270DFCDF9D411F8BBE2898F50F5D9A /* CSYWechatManager.m in Sources */,
+				54676130D7DADAA10C8CA631EF91808F /* DataDigest.m in Sources */,
+				6224455E062760B668C7D5301410AC79 /* DataKeyChain.m in Sources */,
+				D317B21F5BC14A042B7074E7D1ACAE12 /* DataSecurity.m in Sources */,
+				E9B5134693C4D75CD1772910C9CAEA89 /* FontUtil.m in Sources */,
+				429BFC462BF37FCFEBF6AA14308C2495 /* KeychainItemWrapper.m in Sources */,
+				32AA2761EC13A57FADA36ECE773ABEC6 /* KeyGenerator.m in Sources */,
+				9E6F34C5052DBDE7D48D87943BF44BEA /* LGAlertView.m in Sources */,
+				22B45D5E0E340CD5496B33EB47F44C8F /* LGAlertViewButton.m in Sources */,
+				4B2267983CCCA7D20B016A20D0E4DA51 /* LGAlertViewButtonProperties.m in Sources */,
+				217ED0FEA4F501701BF31324F740C159 /* LGAlertViewCell.m in Sources */,
+				E5E5729AD364CA26A3143EF3B6618182 /* LGAlertViewController.m in Sources */,
+				89464E78E7D47A15A5086D9FAD187292 /* LGAlertViewHelper.m in Sources */,
+				E5E59FCAB09DA3A483F840A96DA48CA3 /* LGAlertViewManager.m in Sources */,
+				BC05A252069AB368916F133269B96337 /* LGAlertViewShadowView.m in Sources */,
+				ACA049398CAD42D050E29C18D52BEF62 /* LGAlertViewTextField.m in Sources */,
+				60C956138EB7997D8B318438C53AA4B4 /* LGAlertViewWindow.m in Sources */,
+				A05CC501834F198FCD5D462611904768 /* LGAlertViewWindowContainer.m in Sources */,
+				C6217C26ECC6632B7458AA8E3CB1D915 /* LGAlertViewWindowsObserver.m in Sources */,
+				AC9E6C7C3CDC2454117F48460D0CEF04 /* LJContactManager.m in Sources */,
+				8420FC1B3C89811CE9E269CD71DC2671 /* LJPeoplePickerDelegate.m in Sources */,
+				4EFA7DEF64B68C92E5830ADF515A39CB /* LJPerson.m in Sources */,
+				CA8B486F8BD875869A684FD23FB2FB93 /* LJPickerDetailDelegate.m in Sources */,
+				1C00D1C9853CC940C81C30EE0247C446 /* LocalLib-dummy.m in Sources */,
+				535E082FE4E220BBB29670574A7B20C9 /* LYEmptyBaseView.m in Sources */,
+				8C295D647D2D5DF2E3876B90D70F6058 /* LYEmptyView.m in Sources */,
+				BF6B6606AC9E6B296F0C97821FFFDC0B /* NSNull+CSYInternalNullExtention.m in Sources */,
+				64B16ADE1DBBF8026E8C40489413AAD5 /* NSObject+CSYUtil.m in Sources */,
+				14E48384B3AE722727BA3A7BD1E1277A /* NSString+CSYUtil.m in Sources */,
+				632D5CDF8F06F1A7752B1552499AB1A0 /* NSString+LJExtension.m in Sources */,
+				514F94CA79CC7329C5FD674197DEE146 /* UIButton+CSYUtil.m in Sources */,
+				3C1D63BF7BF1853305673577ED0B3F24 /* UIImage+CSYUtil.m in Sources */,
+				DCE6B0A2F831475D129BC35BE9D5E210 /* UIView+CAShapeLayer.m in Sources */,
+				2CEFE2CEFB06D7E84F5C556B9BC111A7 /* UIView+CSYHUD.m in Sources */,
+				181EC21FC7C0FD30C6B59C7D5896D240 /* UIView+Empty.m in Sources */,
+				B2B6F1A9516ACFF1E66D3F18005C9DC0 /* UIView+LayoutMethods.m in Sources */,
+				BC225F5FE7226B8D83637C068999CFC6 /* UIView+LYExtension.m in Sources */,
+				127EAF1A4B4266DAFE0F512A232D9904 /* UIWindow+LGAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BDEF3C2F459100A3F930F3E1954D336F /* Sources */ = {
+		C5E254CEF3CB13158C80F0AD20AB5A5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				05A8560469731CF9DC16E869740CD53D /* CSYWechatManager.m in Sources */,
-				0949BCFF52F5B39398B8200ED3559432 /* LocalLib-dummy.m in Sources */,
+				2C619F5D6EB2BFCAC3F9BB5C9D7B1307 /* MBProgressHUD-dummy.m in Sources */,
+				F0E11D6297CD90EE3EB627A8CDF2885E /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A96390DF39DF49944281DBF26BF303 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C03C20B51CD71B392ECD5FF2D0A8368 /* Pods-LocalLib_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0200CED3195D01A5062B72AC7441770A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WechatOpenSDK;
-			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
-			targetProxy = 3A963603A0E4B841C05254D1AAF356D2 /* PBXContainerItemProxy */;
-		};
-		8F661CE9912A5E0FA771E1732CCFF968 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WechatOpenSDK;
-			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
-			targetProxy = 93A6A15C3AFE4842475D11C302600ECA /* PBXContainerItemProxy */;
-		};
-		B3B8211E0AB193E8B99B3A4A3838DA3C /* PBXTargetDependency */ = {
+		00E3E8A258F53D812736AB2621B22135 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LocalLib;
 			target = 7E6F88ACAF2F0C23B93D0531C30A186C /* LocalLib */;
-			targetProxy = F63822E75742D278B32A1E9B0647A844 /* PBXContainerItemProxy */;
+			targetProxy = FD722D37ED8DF8EB38ED34630396D72A /* PBXContainerItemProxy */;
+		};
+		08E146E4C058009D9ACF6E8A024E339C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 037A080B45B84F2945A7AE12D064B4BA /* PBXContainerItemProxy */;
+		};
+		33613EC3128EB229FE6E4DFA1264F327 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 0B40E1171D71D93E6412B7B2447EF88D /* PBXContainerItemProxy */;
+		};
+		424E1233D9B6FFCBF86B4A46F1E6F894 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AlipaySDK-iOS";
+			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
+			targetProxy = AE587F158340B10B73378F4A65BB7AC2 /* PBXContainerItemProxy */;
+		};
+		70D92A4FFB14DE72C3ED42BC40192236 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MBProgressHUD;
+			target = 82B0A41D3031FF27D78E17B0A9A46FB0 /* MBProgressHUD */;
+			targetProxy = 7B167ED7402A9C78E35B92AB5DB687BB /* PBXContainerItemProxy */;
+		};
+		B5F7FC5050AF66FDD0F138A89461EF01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AlipaySDK-iOS";
+			target = 4847ACB1E2799345AA74D9E317048D58 /* AlipaySDK-iOS */;
+			targetProxy = 331105B4D318444FA3FF91003CD6A8C5 /* PBXContainerItemProxy */;
+		};
+		B8D3FFD5BBAF685C9F8EF9E90CB537E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WechatOpenSDK;
+			target = 8554F6236D2AA202CF58503D2DF29730 /* WechatOpenSDK */;
+			targetProxy = 41927659715B0B79F1129763D7E4FDFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		63DA487B65D163F0A02AFBE1395B6DBD /* Debug */ = {
+		83DF59ACD4F7133D45106AB351A03F36 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 578966CED4999DC4FD3101802A3611A3 /* Pods-LocalLib_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LocalLib_Tests/Pods-LocalLib_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LocalLib_Tests/Pods-LocalLib_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7AD53BFE7C7D3A3B943789DAAA8C4390 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E8235E815BF134419E32DF4B85500DBB /* LocalLib.debug.xcconfig */;
+			baseConfigurationReference = 1AFF8616741438658453BB091C84C36A /* MBProgressHUD.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -455,15 +1210,14 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/LocalLib/LocalLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/LocalLib/LocalLib-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/LocalLib/LocalLib.modulemap";
-				PRODUCT_MODULE_NAME = LocalLib;
-				PRODUCT_NAME = LocalLib;
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
@@ -474,9 +1228,9 @@
 			};
 			name = Debug;
 		};
-		917EE5857ED9D859EF124B184D0A51C2 /* Release */ = {
+		A0F052D5A8EE05A7189E03812B02B500 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3DF14C1137882BFDBFE3D846088EC9CD /* WechatOpenSDK.release.xcconfig */;
+			baseConfigurationReference = 82FF267B4BBBF706C2B50CB94FAE3B79 /* AlipaySDK-iOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -485,6 +1239,51 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2DB3C5A5BF6E2BA8A7A8E0178051515 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 703D76EE0D1D4ECDDAC6F0D65D9AC345 /* AlipaySDK-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF356D80FE3481CB41C7C23DDB8E0C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52F2F0BD16A5078FA603A43CE795B16E /* MBProgressHUD.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = MBProgressHUD;
+				PRODUCT_NAME = MBProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -547,6 +1346,38 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
+		};
+		B4251A56D9D93F0084E4D8630733A35C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 424F4C80A6DB81C205CF9A81DC5652AD /* LocalLib.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LocalLib/LocalLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LocalLib/LocalLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/LocalLib/LocalLib.modulemap";
+				PRODUCT_MODULE_NAME = LocalLib;
+				PRODUCT_NAME = LocalLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -612,9 +1443,23 @@
 			};
 			name = Debug;
 		};
-		D21BF6BA3A901E1C5954B9DDB3E1BCC7 /* Release */ = {
+		BB731FF20F43B5859AA6D76569CC9425 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7BD93FF9E35A8EA82143562EDFCE997D /* LocalLib.release.xcconfig */;
+			baseConfigurationReference = 370B00E88D2E83D2620D6CE87840E122 /* WechatOpenSDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC1D79691F776B671D97EAEA94282D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 200DDFBAF70C9A060BD181A63FD3E140 /* LocalLib.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -645,9 +1490,9 @@
 			};
 			name = Release;
 		};
-		E3B4A7264BAEC1A392D3E6B85CD86F49 /* Debug */ = {
+		C7C64EFBA4806421E84C7DDDE3D26EA4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D0F7F37F70A41D23FD153C2FBCB4B3F3 /* WechatOpenSDK.debug.xcconfig */;
+			baseConfigurationReference = 5D22BAC98F79286DEB63045075C22BFC /* WechatOpenSDK.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -658,9 +1503,9 @@
 			};
 			name = Debug;
 		};
-		FF163C6412AB2885D2320050547F278E /* Release */ = {
+		D53DF1AAC9374A66A9DD18AA9C7B7873 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B37F63DAEA8AB057E8C240F3973E0D61 /* Pods-LocalLib_Tests.release.xcconfig */;
+			baseConfigurationReference = D2196E1F9BD00CB4EAC866074BC6FB58 /* Pods-LocalLib_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -692,14 +1537,47 @@
 			};
 			name = Release;
 		};
+		FE5AFDF1B289744E7B90CC07B29F0F42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222AC0C2718A02FB2B6384CF222227FF /* Pods-LocalLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LocalLib_Tests/Pods-LocalLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LocalLib_Tests/Pods-LocalLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		08A34EC108395C3A49AD5B2C81F22FE3 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+		389DF69C18C4E83D1890FC2C9CCC6DCB /* Build configuration list for PBXNativeTarget "LocalLib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E3B4A7264BAEC1A392D3E6B85CD86F49 /* Debug */,
-				917EE5857ED9D859EF124B184D0A51C2 /* Release */,
+				B4251A56D9D93F0084E4D8630733A35C /* Debug */,
+				BC1D79691F776B671D97EAEA94282D85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -713,20 +1591,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97C341D26F7D884C15417F76476E6C35 /* Build configuration list for PBXNativeTarget "LocalLib" */ = {
+		48CE3FED3E2D19C4363505B9F04916C7 /* Build configuration list for PBXAggregateTarget "AlipaySDK-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7AD53BFE7C7D3A3B943789DAAA8C4390 /* Debug */,
-				D21BF6BA3A901E1C5954B9DDB3E1BCC7 /* Release */,
+				A2DB3C5A5BF6E2BA8A7A8E0178051515 /* Debug */,
+				A0F052D5A8EE05A7189E03812B02B500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A1B9F2DF53473974A667277942C95039 /* Build configuration list for PBXNativeTarget "Pods-LocalLib_Tests" */ = {
+		70614039D35D061BE333189DF9421AF5 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63DA487B65D163F0A02AFBE1395B6DBD /* Debug */,
-				FF163C6412AB2885D2320050547F278E /* Release */,
+				83DF59ACD4F7133D45106AB351A03F36 /* Debug */,
+				AF356D80FE3481CB41C7C23DDB8E0C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA07283E6BB17AF2B004F5A8B7D89A89 /* Build configuration list for PBXAggregateTarget "WechatOpenSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7C64EFBA4806421E84C7DDDE3D26EA4 /* Debug */,
+				BB731FF20F43B5859AA6D76569CC9425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA0A1554199126F6F7D73AE35B073101 /* Build configuration list for PBXNativeTarget "Pods-LocalLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5AFDF1B289744E7B90CC07B29F0F42 /* Debug */,
+				D53DF1AAC9374A66A9DD18AA9C7B7873 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
