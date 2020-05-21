@@ -60,6 +60,8 @@ Pod::Spec.new do |s|
 
   # 所有manager
   CSYLGAlertViewManager       = {:spec_path => "Mamager", :spec_name => "LGAlertViewManager",    :spec_dependency => ['LocalLib/LGAlertView'] }
+  CSYWechatPayManager         = {:spec_path => "Mamager", :spec_name => "WechatPayManager",      :spec_dependency => ['WechatOpenSDK'], :static_framework => true}
+  
   
   # 所有ThirdLib
   CSYLGAlertView              = {:spec_path => "ThirdLib", :spec_name => "LGAlertView"               }
@@ -92,6 +94,7 @@ Pod::Spec.new do |s|
     
     # 所有manager
     CSYLGAlertViewManager,
+    CSYWechatPayManager,
     
     # 所有ThirdLib
     CSYLGAlertView,
@@ -105,9 +108,10 @@ Pod::Spec.new do |s|
   
   all_sub_spec.each do |sub_spec|
     
-    providerName       = sub_spec[:spec_name]
-    providerPath       = sub_spec[:spec_path]
-    providerDependency = sub_spec[:spec_dependency]
+    providerName            = sub_spec[:spec_name]
+    providerPath            = sub_spec[:spec_path]
+    providerDependency      = sub_spec[:spec_dependency]
+    providerStaticFramework = sub_spec[:static_framework]
     
     s.subspec providerName do |ss|
       sources = ["LocalLib/Classes/#{providerPath}/#{providerName}/**/*"]
@@ -117,6 +121,10 @@ Pod::Spec.new do |s|
         providerDependency.each do |dependency|
           ss.dependency dependency
         end
+      end
+      
+      if providerStaticFramework
+        s.static_framework = providerStaticFramework
       end
       
     end

@@ -1,16 +1,79 @@
 PODS:
-  - LocalLib/ColorMacros (0.0.4)
+  - LocalLib (0.0.5):
+    - LocalLib/ColorMacros (= 0.0.5)
+    - LocalLib/CSYInternalNullExtention (= 0.0.5)
+    - LocalLib/DataDigest (= 0.0.5)
+    - LocalLib/DateUtil (= 0.0.5)
+    - LocalLib/DeviceIDTool (= 0.0.5)
+    - LocalLib/FileUtil (= 0.0.5)
+    - LocalLib/FontUtil (= 0.0.5)
+    - LocalLib/KeyGenerator (= 0.0.5)
+    - LocalLib/LGAlertView (= 0.0.5)
+    - LocalLib/LGAlertViewManager (= 0.0.5)
+    - LocalLib/LJContactManager (= 0.0.5)
+    - LocalLib/LYEmptyView (= 0.0.5)
+    - LocalLib/MachineModel (= 0.0.5)
+    - LocalLib/NSObjectUtil (= 0.0.5)
+    - LocalLib/NSStringUtil (= 0.0.5)
+    - LocalLib/RegexPredicate (= 0.0.5)
+    - LocalLib/Security (= 0.0.5)
+    - LocalLib/SystemUtil (= 0.0.5)
+    - LocalLib/UIButtonUtil (= 0.0.5)
+    - LocalLib/UIImageUtil (= 0.0.5)
+    - LocalLib/UIView (= 0.0.5)
+    - LocalLib/UIViewHud (= 0.0.5)
+    - LocalLib/UtilMacros (= 0.0.5)
+    - LocalLib/WechatPayManager (= 0.0.5)
+  - LocalLib/ColorMacros (0.0.5)
+  - LocalLib/CSYInternalNullExtention (0.0.5)
+  - LocalLib/DataDigest (0.0.5)
+  - LocalLib/DateUtil (0.0.5)
+  - LocalLib/DeviceIDTool (0.0.5)
+  - LocalLib/FileUtil (0.0.5)
+  - LocalLib/FontUtil (0.0.5)
+  - LocalLib/KeyGenerator (0.0.5):
+    - LocalLib/DataDigest
+  - LocalLib/LGAlertView (0.0.5)
+  - LocalLib/LGAlertViewManager (0.0.5):
+    - LocalLib/LGAlertView
+  - LocalLib/LJContactManager (0.0.5)
+  - LocalLib/LYEmptyView (0.0.5)
+  - LocalLib/MachineModel (0.0.5)
+  - LocalLib/NSObjectUtil (0.0.5)
+  - LocalLib/NSStringUtil (0.0.5)
+  - LocalLib/RegexPredicate (0.0.5)
+  - LocalLib/Security (0.0.5)
+  - LocalLib/SystemUtil (0.0.5):
+    - LocalLib/LGAlertViewManager
+  - LocalLib/UIButtonUtil (0.0.5):
+    - LocalLib/UIImageUtil
+  - LocalLib/UIImageUtil (0.0.5)
+  - LocalLib/UIView (0.0.5)
+  - LocalLib/UIViewHud (0.0.5):
+    - MBProgressHUD
+  - LocalLib/UtilMacros (0.0.5)
+  - LocalLib/WechatPayManager (0.0.5):
+    - WechatOpenSDK
+  - MBProgressHUD (1.2.0)
+  - WechatOpenSDK (1.8.7.1)
 
 DEPENDENCIES:
-  - LocalLib/ColorMacros (from `../`)
+  - LocalLib (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - MBProgressHUD
+    - WechatOpenSDK
 
 EXTERNAL SOURCES:
   LocalLib:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LocalLib: 0dcdcded11b728d20b5650f38d4c931d3d078f86
+  LocalLib: 2079043153f95af2afe1cd0620682919a6883528
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
 
-PODFILE CHECKSUM: 9513bc8fa4a4319b7440480ba7b539b868470bb4
+PODFILE CHECKSUM: 35c71ad4c392b07859c7db009adaf56f8783b532
 
 COCOAPODS: 1.9.1

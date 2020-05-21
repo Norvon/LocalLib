@@ -11,6 +11,7 @@
 #endif
 
 #import "NSNull+CSYInternalNullExtention.h"
+#import "ColorMacros.h"
 #import "DataDigest.h"
 #import "CSYDateUtil.h"
 #import "CSYDeviceIDTool.h"
@@ -56,6 +57,8 @@
 #import "UIView+CAShapeLayer.h"
 #import "UIView+LayoutMethods.h"
 #import "UIView+CSYHUD.h"
+#import "UtilMacros.h"
+#import "CSYWechatManager.h"
 
 FOUNDATION_EXPORT double LocalLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char LocalLibVersionString[];
