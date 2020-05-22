@@ -1,87 +1,87 @@
 PODS:
   - AlipaySDK-iOS (15.7.4)
-  - LocalLib (0.0.5):
-    - LocalLib/AliPayManager (= 0.0.5)
-    - LocalLib/BaseNavViewController (= 0.0.5)
-    - LocalLib/BaseTableViewFactory (= 0.0.5)
-    - LocalLib/BaseViewControlller (= 0.0.5)
-    - LocalLib/ColorMacros (= 0.0.5)
-    - LocalLib/CSYInternalNullExtention (= 0.0.5)
-    - LocalLib/DataDigest (= 0.0.5)
-    - LocalLib/DateUtil (= 0.0.5)
-    - LocalLib/DeviceIDTool (= 0.0.5)
-    - LocalLib/EmptyView (= 0.0.5)
-    - LocalLib/FileUtil (= 0.0.5)
-    - LocalLib/FontUtil (= 0.0.5)
-    - LocalLib/KeyGenerator (= 0.0.5)
-    - LocalLib/LGAlertView (= 0.0.5)
-    - LocalLib/LGAlertViewManager (= 0.0.5)
-    - LocalLib/LJContactManager (= 0.0.5)
-    - LocalLib/LYEmptyView (= 0.0.5)
-    - LocalLib/MachineModel (= 0.0.5)
-    - LocalLib/NSObjectUtil (= 0.0.5)
-    - LocalLib/NSStringUtil (= 0.0.5)
-    - LocalLib/RegexPredicate (= 0.0.5)
-    - LocalLib/Security (= 0.0.5)
-    - LocalLib/ShareManager (= 0.0.5)
-    - LocalLib/SystemUtil (= 0.0.5)
-    - LocalLib/UIButtonUtil (= 0.0.5)
-    - LocalLib/UIImageUtil (= 0.0.5)
-    - LocalLib/UIView (= 0.0.5)
-    - LocalLib/UIViewHud (= 0.0.5)
-    - LocalLib/UtilMacros (= 0.0.5)
-    - LocalLib/WechatPayManager (= 0.0.5)
-  - LocalLib/AliPayManager (0.0.5):
+  - LocalLib (0.0.6):
+    - LocalLib/AliPayManager (= 0.0.6)
+    - LocalLib/BaseNavViewController (= 0.0.6)
+    - LocalLib/BaseTableViewFactory (= 0.0.6)
+    - LocalLib/BaseViewControlller (= 0.0.6)
+    - LocalLib/ColorMacros (= 0.0.6)
+    - LocalLib/CSYInternalNullExtention (= 0.0.6)
+    - LocalLib/DataDigest (= 0.0.6)
+    - LocalLib/DateUtil (= 0.0.6)
+    - LocalLib/DeviceIDTool (= 0.0.6)
+    - LocalLib/EmptyView (= 0.0.6)
+    - LocalLib/FileUtil (= 0.0.6)
+    - LocalLib/FontUtil (= 0.0.6)
+    - LocalLib/KeyGenerator (= 0.0.6)
+    - LocalLib/LGAlertView (= 0.0.6)
+    - LocalLib/LGAlertViewManager (= 0.0.6)
+    - LocalLib/LJContactManager (= 0.0.6)
+    - LocalLib/LYEmptyView (= 0.0.6)
+    - LocalLib/MachineModel (= 0.0.6)
+    - LocalLib/NSObjectUtil (= 0.0.6)
+    - LocalLib/NSStringUtil (= 0.0.6)
+    - LocalLib/RegexPredicate (= 0.0.6)
+    - LocalLib/Security (= 0.0.6)
+    - LocalLib/ShareManager (= 0.0.6)
+    - LocalLib/SystemUtil (= 0.0.6)
+    - LocalLib/UIButtonUtil (= 0.0.6)
+    - LocalLib/UIImageUtil (= 0.0.6)
+    - LocalLib/UIView (= 0.0.6)
+    - LocalLib/UIViewHud (= 0.0.6)
+    - LocalLib/UtilMacros (= 0.0.6)
+    - LocalLib/WechatPayManager (= 0.0.6)
+  - LocalLib/AliPayManager (0.0.6):
     - AlipaySDK-iOS
-  - LocalLib/BaseNavViewController (0.0.5):
+  - LocalLib/BaseNavViewController (0.0.6):
     - RTRootNavigationController
-  - LocalLib/BaseTableViewFactory (0.0.5):
+  - LocalLib/BaseTableViewFactory (0.0.6):
     - LocalLib/ColorMacros
-  - LocalLib/BaseViewControlller (0.0.5):
+  - LocalLib/BaseViewControlller (0.0.6):
     - LocalLib/BaseNavViewController
     - LocalLib/BaseTableViewFactory
     - LocalLib/EmptyView
     - LocalLib/UIImageUtil
-  - LocalLib/ColorMacros (0.0.5)
-  - LocalLib/CSYInternalNullExtention (0.0.5)
-  - LocalLib/DataDigest (0.0.5)
-  - LocalLib/DateUtil (0.0.5)
-  - LocalLib/DeviceIDTool (0.0.5)
-  - LocalLib/EmptyView (0.0.5):
+  - LocalLib/ColorMacros (0.0.6)
+  - LocalLib/CSYInternalNullExtention (0.0.6)
+  - LocalLib/DataDigest (0.0.6)
+  - LocalLib/DateUtil (0.0.6)
+  - LocalLib/DeviceIDTool (0.0.6)
+  - LocalLib/EmptyView (0.0.6):
     - LocalLib/ColorMacros
     - LocalLib/LYEmptyView
     - LocalLib/UtilMacros
-  - LocalLib/FileUtil (0.0.5)
-  - LocalLib/FontUtil (0.0.5)
-  - LocalLib/KeyGenerator (0.0.5):
+  - LocalLib/FileUtil (0.0.6)
+  - LocalLib/FontUtil (0.0.6)
+  - LocalLib/KeyGenerator (0.0.6):
     - LocalLib/DataDigest
-  - LocalLib/LGAlertView (0.0.5)
-  - LocalLib/LGAlertViewManager (0.0.5):
+  - LocalLib/LGAlertView (0.0.6)
+  - LocalLib/LGAlertViewManager (0.0.6):
     - LocalLib/LGAlertView
-  - LocalLib/LJContactManager (0.0.5)
-  - LocalLib/LYEmptyView (0.0.5)
-  - LocalLib/MachineModel (0.0.5)
-  - LocalLib/NSObjectUtil (0.0.5)
-  - LocalLib/NSStringUtil (0.0.5)
-  - LocalLib/RegexPredicate (0.0.5)
-  - LocalLib/Security (0.0.5)
-  - LocalLib/ShareManager (0.0.5):
+  - LocalLib/LJContactManager (0.0.6)
+  - LocalLib/LYEmptyView (0.0.6)
+  - LocalLib/MachineModel (0.0.6)
+  - LocalLib/NSObjectUtil (0.0.6)
+  - LocalLib/NSStringUtil (0.0.6)
+  - LocalLib/RegexPredicate (0.0.6)
+  - LocalLib/Security (0.0.6)
+  - LocalLib/ShareManager (0.0.6):
     - Toast
     - UMCCommon
     - UMCShare/Social/ReducedQQ
     - UMCShare/Social/ReducedSina
     - UMCShare/Social/ReducedWeChat
     - UMCShare/UI
-  - LocalLib/SystemUtil (0.0.5):
+  - LocalLib/SystemUtil (0.0.6):
     - LocalLib/LGAlertViewManager
-  - LocalLib/UIButtonUtil (0.0.5):
+  - LocalLib/UIButtonUtil (0.0.6):
     - LocalLib/UIImageUtil
-  - LocalLib/UIImageUtil (0.0.5)
-  - LocalLib/UIView (0.0.5)
-  - LocalLib/UIViewHud (0.0.5):
+  - LocalLib/UIImageUtil (0.0.6)
+  - LocalLib/UIView (0.0.6)
+  - LocalLib/UIViewHud (0.0.6):
     - MBProgressHUD
-  - LocalLib/UtilMacros (0.0.5)
-  - LocalLib/WechatPayManager (0.0.5):
+  - LocalLib/UtilMacros (0.0.6)
+  - LocalLib/WechatPayManager (0.0.6):
     - WechatOpenSDK
   - MBProgressHUD (1.2.0)
   - RTRootNavigationController (0.7.2):
@@ -124,7 +124,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AlipaySDK-iOS: 8659cdb4403de7e5f26ad8b699864a9cbe53384c
-  LocalLib: fa1a6451a4bfcbc60720ad4492c850cf28656e53
+  LocalLib: 25448f79df005c0b75ee2c95e42d681a596217c8
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   RTRootNavigationController: 8344c2352d6d40fa370d0366efae2c84a945213f
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196

@@ -1,7 +1,7 @@
 {
   "name": "LocalLib",
-  "version": "0.0.5",
-  "summary": "A short description of LocalLib.",
+  "version": "0.0.6",
+  "summary": "拆分 BaseNavViewController、BaseTableViewFactory、BaseViewControlller、EmptyView",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/norvon@126.com/LocalLib",
   "license": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/norvon@126.com/LocalLib.git",
-    "tag": "0.0.5"
+    "tag": "0.0.6"
   },
   "platforms": {
     "ios": "8.0"
