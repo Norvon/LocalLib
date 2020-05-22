@@ -176,6 +176,32 @@
       }
     },
     {
+      "name": "ShareManager",
+      "source_files": [
+        "LocalLib/Classes/Mamager/ShareManager/**/*"
+      ],
+      "dependencies": {
+        "Toast": [
+
+        ],
+        "UMCCommon": [
+
+        ],
+        "UMCShare/UI": [
+
+        ],
+        "UMCShare/Social/ReducedWeChat": [
+
+        ],
+        "UMCShare/Social/ReducedQQ": [
+
+        ],
+        "UMCShare/Social/ReducedSina": [
+
+        ]
+      }
+    },
+    {
       "name": "LGAlertView",
       "source_files": [
         "LocalLib/Classes/ThirdLib/LGAlertView/**/*"

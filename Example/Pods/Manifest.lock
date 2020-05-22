@@ -19,6 +19,7 @@ PODS:
     - LocalLib/NSStringUtil (= 0.0.5)
     - LocalLib/RegexPredicate (= 0.0.5)
     - LocalLib/Security (= 0.0.5)
+    - LocalLib/ShareManager (= 0.0.5)
     - LocalLib/SystemUtil (= 0.0.5)
     - LocalLib/UIButtonUtil (= 0.0.5)
     - LocalLib/UIImageUtil (= 0.0.5)
@@ -47,6 +48,13 @@ PODS:
   - LocalLib/NSStringUtil (0.0.5)
   - LocalLib/RegexPredicate (0.0.5)
   - LocalLib/Security (0.0.5)
+  - LocalLib/ShareManager (0.0.5):
+    - Toast
+    - UMCCommon
+    - UMCShare/Social/ReducedQQ
+    - UMCShare/Social/ReducedSina
+    - UMCShare/Social/ReducedWeChat
+    - UMCShare/UI
   - LocalLib/SystemUtil (0.0.5):
     - LocalLib/LGAlertViewManager
   - LocalLib/UIButtonUtil (0.0.5):
@@ -59,6 +67,22 @@ PODS:
   - LocalLib/WechatPayManager (0.0.5):
     - WechatOpenSDK
   - MBProgressHUD (1.2.0)
+  - Toast (4.0.0)
+  - UMCCommon (2.1.4)
+  - UMCShare/Core (6.9.8):
+    - UMCCommon
+  - UMCShare/Social/ReducedQQ (6.9.8):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedSina (6.9.8):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.9.8):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/UI (6.9.8):
+    - UMCCommon
+    - UMCShare/Core
   - WechatOpenSDK (1.8.7.1)
 
 DEPENDENCIES:
@@ -68,6 +92,9 @@ SPEC REPOS:
   trunk:
     - AlipaySDK-iOS
     - MBProgressHUD
+    - Toast
+    - UMCCommon
+    - UMCShare
     - WechatOpenSDK
 
 EXTERNAL SOURCES:
@@ -76,8 +103,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AlipaySDK-iOS: 8659cdb4403de7e5f26ad8b699864a9cbe53384c
-  LocalLib: a07d75d546236b7ae186a2b5446dcccb6a7be175
+  LocalLib: 4b81cd889d1b20fb78d20028c7350865c9f34db7
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  UMCCommon: b0703b0053323f598e01670ea702b8eb1e66e611
+  UMCShare: a250203b34a56cde25cc4c28335449b542f0255d
   WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
 
 PODFILE CHECKSUM: 32abf3d487a61c08e2794be657973c46740e420e

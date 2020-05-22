@@ -52,6 +52,7 @@
 #import "CSYRegexString.h"
 #import "DataKeyChain.h"
 #import "DataSecurity.h"
+#import "CSYShareManager.h"
 #import "CSYSystemUtil.h"
 #import "UIButton+CSYUtil.h"
 #import "UIImage+CSYUtil.h"

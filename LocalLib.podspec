@@ -62,11 +62,15 @@ Pod::Spec.new do |s|
   CSYLGAlertViewManager       = {:spec_path => "Mamager", :spec_name => "LGAlertViewManager",    :spec_dependency => ['LocalLib/LGAlertView'] }
   CSYWechatPayManager         = {:spec_path => "Mamager", :spec_name => "WechatPayManager",      :spec_dependency => ['WechatOpenSDK'], :static_framework => true}
   CSYAliPayManager            = {:spec_path => "Mamager", :spec_name => "AliPayManager",         :spec_dependency => ['AlipaySDK-iOS']}
+  CSYShareManager             = {:spec_path => "Mamager", :spec_name => "ShareManager",
+    :spec_dependency => ['Toast', 'UMCCommon', 'UMCShare/UI', 'UMCShare/Social/ReducedWeChat', 'UMCShare/Social/ReducedQQ', 'UMCShare/Social/ReducedSina']}
   
   # 所有ThirdLib
   CSYLGAlertView              = {:spec_path => "ThirdLib", :spec_name => "LGAlertView"               }
   CSYLJContactManager         = {:spec_path => "ThirdLib", :spec_name => "LJContactManager"          }
   CSYLYEmptyView              = {:spec_path => "ThirdLib", :spec_name => "LYEmptyView"               }
+  
+  
   
   # 所有的宏
   CSYColorMacros              = {:spec_path => "Define", :spec_name => "ColorMacros"               }
@@ -96,6 +100,7 @@ Pod::Spec.new do |s|
     CSYLGAlertViewManager,
     CSYWechatPayManager,
     CSYAliPayManager,
+    CSYShareManager,
     
     # 所有ThirdLib
     CSYLGAlertView,
