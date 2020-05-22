@@ -10,7 +10,7 @@
 
 // other
 #import <UShareUI/UShareUI.h>
-#import "Toast.h"
+#import <Toast/UIView+Toast.h>
 
 @implementation CSYShareManager
 + (instancetype)sharedInstance {
