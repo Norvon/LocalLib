@@ -18,6 +18,11 @@
   "platforms": {
     "ios": "8.0"
   },
+  "resource_bundles": {
+    "LocalLib": [
+      "LocalLib/Assets/*"
+    ]
+  },
   "static_framework": true,
   "subspecs": [
     {
@@ -218,6 +223,65 @@
       "source_files": [
         "LocalLib/Classes/ThirdLib/LYEmptyView/**/*"
       ]
+    },
+    {
+      "name": "EmptyView",
+      "source_files": [
+        "LocalLib/Classes/Base/EmptyView/**/*"
+      ],
+      "dependencies": {
+        "LocalLib/LYEmptyView": [
+
+        ],
+        "LocalLib/ColorMacros": [
+
+        ],
+        "LocalLib/UtilMacros": [
+
+        ]
+      }
+    },
+    {
+      "name": "BaseNavViewController",
+      "source_files": [
+        "LocalLib/Classes/Base/BaseNavViewController/**/*"
+      ],
+      "dependencies": {
+        "RTRootNavigationController": [
+
+        ]
+      }
+    },
+    {
+      "name": "BaseTableViewFactory",
+      "source_files": [
+        "LocalLib/Classes/Base/BaseTableViewFactory/**/*"
+      ],
+      "dependencies": {
+        "LocalLib/ColorMacros": [
+
+        ]
+      }
+    },
+    {
+      "name": "BaseViewControlller",
+      "source_files": [
+        "LocalLib/Classes/Base/BaseViewControlller/**/*"
+      ],
+      "dependencies": {
+        "LocalLib/BaseNavViewController": [
+
+        ],
+        "LocalLib/BaseTableViewFactory": [
+
+        ],
+        "LocalLib/EmptyView": [
+
+        ],
+        "LocalLib/UIImageUtil": [
+
+        ]
+      }
     },
     {
       "name": "ColorMacros",

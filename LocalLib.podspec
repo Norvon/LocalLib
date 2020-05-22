@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LocalLib'
-  s.version          = '0.0.5'
-  s.summary          = 'A short description of LocalLib.'
+  s.version          = '0.0.6'
+  s.summary          = '拆分 BaseNavViewController、BaseTableViewFactory、BaseViewControlller、EmptyView'
   
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -30,11 +30,11 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = '8.0'
   
-  #  s.source_files = 'LocalLib/Classes/README.md'
+  #  s.source_files = ''
   
-  # s.resource_bundles = {
-  #   'LocalLib' => ['LocalLib/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'LocalLib' => ['LocalLib/Assets/*']
+   }
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   
@@ -70,7 +70,11 @@ Pod::Spec.new do |s|
   CSYLJContactManager         = {:spec_path => "ThirdLib", :spec_name => "LJContactManager"          }
   CSYLYEmptyView              = {:spec_path => "ThirdLib", :spec_name => "LYEmptyView"               }
   
-  
+  # base
+  CSYEmptyView                        = {:spec_path => "Base", :spec_name => "EmptyView",                        :spec_dependency => ['LocalLib/LYEmptyView', 'LocalLib/ColorMacros', 'LocalLib/UtilMacros']   }
+  CSYBaseNavViewController            = {:spec_path => "Base", :spec_name => "BaseNavViewController",            :spec_dependency => ['RTRootNavigationController']   }
+  CSYBaseTableViewFactory             = {:spec_path => "Base", :spec_name => "BaseTableViewFactory",             :spec_dependency => ['LocalLib/ColorMacros']   }
+  CSYBaseViewControlller              = {:spec_path => "Base", :spec_name => "BaseViewControlller",              :spec_dependency => ['LocalLib/BaseNavViewController', 'LocalLib/BaseTableViewFactory','LocalLib/EmptyView', 'LocalLib/UIImageUtil'] }
   
   # 所有的宏
   CSYColorMacros              = {:spec_path => "Define", :spec_name => "ColorMacros"               }
@@ -106,6 +110,12 @@ Pod::Spec.new do |s|
     CSYLGAlertView,
     CSYLJContactManager,
     CSYLYEmptyView,
+    
+    # Base
+    CSYEmptyView,
+    CSYBaseNavViewController,
+    CSYBaseTableViewFactory,
+    CSYBaseViewControlller,
     
     # 所有的宏
     CSYColorMacros,
