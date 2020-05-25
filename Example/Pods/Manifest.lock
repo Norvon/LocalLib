@@ -19,6 +19,7 @@ PODS:
     - LocalLib/LJContactManager (= 0.0.6)
     - LocalLib/LYEmptyView (= 0.0.6)
     - LocalLib/MachineModel (= 0.0.6)
+    - LocalLib/MainRootVC (= 0.0.6)
     - LocalLib/NSObjectUtil (= 0.0.6)
     - LocalLib/NSStringUtil (= 0.0.6)
     - LocalLib/RegexPredicate (= 0.0.6)
@@ -61,6 +62,8 @@ PODS:
   - LocalLib/LJContactManager (0.0.6)
   - LocalLib/LYEmptyView (0.0.6)
   - LocalLib/MachineModel (0.0.6)
+  - LocalLib/MainRootVC (0.0.6):
+    - LocalLib/BaseNavViewController
   - LocalLib/NSObjectUtil (0.0.6)
   - LocalLib/NSStringUtil (0.0.6)
   - LocalLib/RegexPredicate (0.0.6)
@@ -124,7 +127,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AlipaySDK-iOS: 8659cdb4403de7e5f26ad8b699864a9cbe53384c
-  LocalLib: 25448f79df005c0b75ee2c95e42d681a596217c8
+  LocalLib: d8c568b09499927da8648107dd7f62a340b7aa1b
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   RTRootNavigationController: 8344c2352d6d40fa370d0366efae2c84a945213f
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196

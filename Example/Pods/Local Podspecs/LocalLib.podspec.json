@@ -284,6 +284,17 @@
       }
     },
     {
+      "name": "MainRootVC",
+      "source_files": [
+        "LocalLib/Classes/Base/MainRootVC/**/*"
+      ],
+      "dependencies": {
+        "LocalLib/BaseNavViewController": [
+
+        ]
+      }
+    },
+    {
       "name": "ColorMacros",
       "source_files": [
         "LocalLib/Classes/Define/ColorMacros/**/*"
