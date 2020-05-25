@@ -295,6 +295,23 @@
       }
     },
     {
+      "name": "BaseSubmitView",
+      "source_files": [
+        "LocalLib/Classes/Base/BaseSubmitView/**/*"
+      ],
+      "dependencies": {
+        "Masonry": [
+
+        ],
+        "LocalLib/ColorMacros": [
+
+        ],
+        "LocalLib/UtilMacros": [
+
+        ]
+      }
+    },
+    {
       "name": "ColorMacros",
       "source_files": [
         "LocalLib/Classes/Define/ColorMacros/**/*"

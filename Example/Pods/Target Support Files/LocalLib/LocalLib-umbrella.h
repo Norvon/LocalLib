@@ -12,6 +12,7 @@
 
 #import "CSYAliPayManager.h"
 #import "CSYBaseNavViewController.h"
+#import "CSYBaseSubmitView.h"
 #import "CSYBaseTableViewFactory.h"
 #import "BaseViewController.h"
 #import "NSNull+CSYInternalNullExtention.h"

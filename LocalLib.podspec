@@ -76,6 +76,7 @@ Pod::Spec.new do |s|
   CSYBaseTableViewFactory             = {:spec_path => "Base", :spec_name => "BaseTableViewFactory",             :spec_dependency => ['LocalLib/ColorMacros']   }
   CSYBaseViewControlller              = {:spec_path => "Base", :spec_name => "BaseViewControlller",              :spec_dependency => ['LocalLib/BaseNavViewController', 'LocalLib/BaseTableViewFactory','LocalLib/EmptyView', 'LocalLib/UIImageUtil'] }
   CSYMainRootVC                       = {:spec_path => "Base", :spec_name => "MainRootVC",                       :spec_dependency => ['LocalLib/BaseNavViewController']   }
+  CSYBaseSubmitView                   = {:spec_path => "Base", :spec_name => "BaseSubmitView",                   :spec_dependency => ['Masonry', 'LocalLib/ColorMacros', 'LocalLib/UtilMacros']   }
   
   # 所有的宏
   CSYColorMacros              = {:spec_path => "Define", :spec_name => "ColorMacros"               }
@@ -118,6 +119,7 @@ Pod::Spec.new do |s|
     CSYBaseTableViewFactory,
     CSYBaseViewControlller,
     CSYMainRootVC,
+    CSYBaseSubmitView,
     
     # 所有的宏
     CSYColorMacros,

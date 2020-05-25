@@ -1,6 +1,6 @@
 use_frameworks!
 target 'LocalLib_Tests' do
-  pod 'LocalLib', :path => '../'#, :subspecs => ['AliPayManager']
+  pod 'LocalLib', :path => '../'#, :subspecs => ['BaseSubmitView']
   
   
 end
