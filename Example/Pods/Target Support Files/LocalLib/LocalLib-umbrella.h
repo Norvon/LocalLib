@@ -24,6 +24,7 @@
 #import "CSYBaseTextInputIconView.h"
 #import "CSYBaseTextInputView.h"
 #import "BaseViewController.h"
+#import "CSYBaseWebVC.h"
 #import "CSYBaseTextInputCell.h"
 #import "NSNull+CSYInternalNullExtention.h"
 #import "ColorMacros.h"

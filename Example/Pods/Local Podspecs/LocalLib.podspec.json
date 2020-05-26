@@ -276,9 +276,9 @@
       }
     },
     {
-      "name": "BaseViewControlller",
+      "name": "BaseViewController",
       "source_files": [
-        "LocalLib/Classes/Base/BaseViewControlller/**/*"
+        "LocalLib/Classes/Base/BaseViewController/**/*"
       ],
       "dependencies": {
         "LocalLib/BaseNavViewController": [
@@ -379,7 +379,7 @@
         "Masonry": [
 
         ],
-        "LocalLib/BaseViewControlller": [
+        "LocalLib/BaseViewController": [
 
         ]
       }
@@ -393,7 +393,7 @@
         "Masonry": [
 
         ],
-        "LocalLib/BaseViewControlller": [
+        "LocalLib/BaseViewController": [
 
         ]
       }
@@ -425,6 +425,26 @@
 
         ]
       }
+    },
+    {
+      "name": "BaseWebVC",
+      "source_files": [
+        "LocalLib/Classes/Base/BaseWebVC/**/*"
+      ],
+      "dependencies": {
+        "Toast": [
+
+        ],
+        "Masonry": [
+
+        ],
+        "LocalLib/BaseViewController": [
+
+        ]
+      },
+      "frameworks": [
+        "WebKit"
+      ]
     }
   ]
 }

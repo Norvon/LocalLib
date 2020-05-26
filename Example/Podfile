@@ -1,6 +1,6 @@
 use_frameworks!
 target 'LocalLib_Tests' do
-  pod 'LocalLib', :path => '../'#, :subspecs => ['BaseRefreshHeader']
+  pod 'LocalLib', :path => '../'#, :subspecs => ['BaseWebVC']
   
   
 end

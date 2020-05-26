@@ -77,17 +77,21 @@ Pod::Spec.new do |s|
   CSYEmptyView                        = {:spec_path => "Base", :spec_name => "EmptyView",                        :spec_dependency => ['LocalLib/LYEmptyView', 'LocalLib/ColorMacros', 'LocalLib/UtilMacros']   }
   CSYBaseNavViewController            = {:spec_path => "Base", :spec_name => "BaseNavViewController",            :spec_dependency => ['RTRootNavigationController']   }
   CSYBaseTableViewFactory             = {:spec_path => "Base", :spec_name => "BaseTableViewFactory",             :spec_dependency => ['LocalLib/ColorMacros']   }
-  CSYBaseViewControlller              = {:spec_path => "Base", :spec_name => "BaseViewControlller",              :spec_dependency => ['LocalLib/BaseNavViewController', 'LocalLib/BaseTableViewFactory','LocalLib/EmptyView', 'LocalLib/UIImageUtil'] }
+  CSYBaseViewController              = {:spec_path => "Base", :spec_name => "BaseViewController",              :spec_dependency => ['LocalLib/BaseNavViewController', 'LocalLib/BaseTableViewFactory','LocalLib/EmptyView', 'LocalLib/UIImageUtil'] }
   CSYMainRootVC                       = {:spec_path => "Base", :spec_name => "MainRootVC",                       :spec_dependency => ['LocalLib/BaseNavViewController']   }
   CSYBaseSubmitView                   = {:spec_path => "Base", :spec_name => "BaseSubmitView",                   :spec_dependency => ['Masonry', 'LocalLib/ColorMacros', 'LocalLib/UtilMacros']   }
   CSYBaseSubmitFooter                 = {:spec_path => "Base", :spec_name => "BaseSubmitFooter",                 :spec_dependency => ['LocalLib/BaseSubmitView']   }
   CSYBaseSubmintCell                  = {:spec_path => "Base", :spec_name => "BaseSubmintCell",                  :spec_dependency => ['LocalLib/BaseSubmitView']   }
   CSYBaseRefreshFooter                = {:spec_path => "Base", :spec_name => "BaseRefreshFooter",                :spec_dependency => ['MJRefresh']}
   CSYBaseRefreshHeader                = {:spec_path => "Base", :spec_name => "BaseRefreshHeader",                :spec_dependency => ['MJRefresh', 'LocalLib/UtilMacros']}
-  CSYBaseAlertVC                      = {:spec_path => "Base", :spec_name => "BaseAlertVC",                      :spec_dependency => ['Masonry', 'LocalLib/BaseViewControlller']}
-  CSYBaseCell                         = {:spec_path => "Base", :spec_name => "BaseCell",                         :spec_dependency => ['Masonry', 'LocalLib/BaseViewControlller']}
+  CSYBaseAlertVC                      = {:spec_path => "Base", :spec_name => "BaseAlertVC",                      :spec_dependency => ['Masonry', 'LocalLib/BaseViewController']}
+  CSYBaseCell                         = {:spec_path => "Base", :spec_name => "BaseCell",                         :spec_dependency => ['Masonry', 'LocalLib/BaseViewController']}
   CSYBaseTextInputView                = {:spec_path => "Base", :spec_name => "BaseTextInputView",                :spec_dependency => ['Masonry', 'LocalLib/ColorMacros', 'LocalLib/UtilMacros']}
-  CSYBasetTextInputCell               = {:spec_path => "Base", :spec_name => "BasetTextInputCell",                :spec_dependency => ['LocalLib/BaseTextInputView']}
+  CSYBasetTextInputCell               = {:spec_path => "Base", :spec_name => "BasetTextInputCell",               :spec_dependency => ['LocalLib/BaseTextInputView']}
+  CSYBaseWebVC                        = {:spec_path => "Base", :spec_name => "BaseWebVC",                        :spec_dependency => ['Toast', 'Masonry', 'LocalLib/BaseViewController'], :spec_frameworks => ['WebKit'] }
+  
+  
+  
   
   all_sub_spec = [
   # 所有的宏
@@ -128,7 +132,7 @@ Pod::Spec.new do |s|
     CSYEmptyView,
     CSYBaseNavViewController,
     CSYBaseTableViewFactory,
-    CSYBaseViewControlller,
+    CSYBaseViewController,
     CSYMainRootVC,
     CSYBaseSubmitView,
     CSYBaseSubmitFooter,
@@ -139,6 +143,7 @@ Pod::Spec.new do |s|
     CSYBaseCell,
     CSYBaseTextInputView,
     CSYBasetTextInputCell,
+    CSYBaseWebVC,
     
   ]
   
@@ -149,6 +154,7 @@ Pod::Spec.new do |s|
     providerPath            = sub_spec[:spec_path]
     providerDependency      = sub_spec[:spec_dependency]
     providerStaticFramework = sub_spec[:static_framework]
+    providerFrameworks      = sub_spec[:spec_frameworks]
     
     s.subspec providerName do |ss|
       sources = ["LocalLib/Classes/#{providerPath}/#{providerName}/**/*"]
@@ -157,6 +163,12 @@ Pod::Spec.new do |s|
       if providerDependency
         providerDependency.each do |dependency|
           ss.dependency *dependency
+        end
+      end
+      
+      if providerFrameworks
+        providerFrameworks.each do |framewords|
+          ss.frameworks = *framewords
         end
       end
       
