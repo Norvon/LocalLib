@@ -369,6 +369,20 @@
 
         ]
       }
+    },
+    {
+      "name": "BaseAlertVC",
+      "source_files": [
+        "LocalLib/Classes/Base/BaseAlertVC/**/*"
+      ],
+      "dependencies": {
+        "Masonry": [
+
+        ],
+        "LocalLib/BaseViewControlller": [
+
+        ]
+      }
     }
   ]
 }

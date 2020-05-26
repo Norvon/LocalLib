@@ -11,6 +11,8 @@
 #endif
 
 #import "CSYAliPayManager.h"
+#import "CSYBaseAlertVC.h"
+#import "CSYBaseAlertHeadView.h"
 #import "CSYBaseNavViewController.h"
 #import "CSYBaseRefreshFooter.h"
 #import "CSYBaseRefreshHeader.h"
