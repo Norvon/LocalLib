@@ -3,6 +3,8 @@ PODS:
   - LocalLib (0.0.6):
     - LocalLib/AliPayManager (= 0.0.6)
     - LocalLib/BaseNavViewController (= 0.0.6)
+    - LocalLib/BaseRefreshFooter (= 0.0.6)
+    - LocalLib/BaseRefreshHeader (= 0.0.6)
     - LocalLib/BaseSubmintCell (= 0.0.6)
     - LocalLib/BaseSubmitFooter (= 0.0.6)
     - LocalLib/BaseSubmitView (= 0.0.6)
@@ -39,6 +41,11 @@ PODS:
     - AlipaySDK-iOS
   - LocalLib/BaseNavViewController (0.0.6):
     - RTRootNavigationController
+  - LocalLib/BaseRefreshFooter (0.0.6):
+    - MJRefresh
+  - LocalLib/BaseRefreshHeader (0.0.6):
+    - LocalLib/UtilMacros
+    - MJRefresh
   - LocalLib/BaseSubmintCell (0.0.6):
     - LocalLib/BaseSubmitView
   - LocalLib/BaseSubmitFooter (0.0.6):
@@ -99,6 +106,7 @@ PODS:
     - WechatOpenSDK
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
+  - MJRefresh (3.3.1)
   - RTRootNavigationController (0.7.2):
     - RTRootNavigationController/Core (= 0.7.2)
   - RTRootNavigationController/Core (0.7.2)
@@ -128,6 +136,7 @@ SPEC REPOS:
     - AlipaySDK-iOS
     - Masonry
     - MBProgressHUD
+    - MJRefresh
     - RTRootNavigationController
     - Toast
     - UMCCommon
@@ -140,15 +149,16 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AlipaySDK-iOS: 8659cdb4403de7e5f26ad8b699864a9cbe53384c
-  LocalLib: be27c7420c74606f41061f50e692e58d2b94115c
+  LocalLib: cf298276ce09ca685c90ef5bbab1e0fbf0b527c6
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
   RTRootNavigationController: 8344c2352d6d40fa370d0366efae2c84a945213f
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   UMCCommon: b0703b0053323f598e01670ea702b8eb1e66e611
   UMCShare: a250203b34a56cde25cc4c28335449b542f0255d
   WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
 
-PODFILE CHECKSUM: b72c5cd04afde0f6c955f566d9dfe6da38ba31b0
+PODFILE CHECKSUM: 84a1157917a4cb11c8c45d1b0b592822b4e9a8d6
 
 COCOAPODS: 1.9.1

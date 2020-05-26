@@ -344,6 +344,31 @@
 
         ]
       }
+    },
+    {
+      "name": "BaseRefreshFooter",
+      "source_files": [
+        "LocalLib/Classes/Base/BaseRefreshFooter/**/*"
+      ],
+      "dependencies": {
+        "MJRefresh": [
+
+        ]
+      }
+    },
+    {
+      "name": "BaseRefreshHeader",
+      "source_files": [
+        "LocalLib/Classes/Base/BaseRefreshHeader/**/*"
+      ],
+      "dependencies": {
+        "MJRefresh": [
+
+        ],
+        "LocalLib/UtilMacros": [
+
+        ]
+      }
     }
   ]
 }

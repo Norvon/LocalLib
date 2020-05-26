@@ -12,6 +12,8 @@
 
 #import "CSYAliPayManager.h"
 #import "CSYBaseNavViewController.h"
+#import "CSYBaseRefreshFooter.h"
+#import "CSYBaseRefreshHeader.h"
 #import "CSYBaseSubmintCell.h"
 #import "CSYBaseSubmitFooter.h"
 #import "CSYBaseSubmitView.h"

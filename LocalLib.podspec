@@ -82,7 +82,8 @@ Pod::Spec.new do |s|
   CSYBaseSubmitView                   = {:spec_path => "Base", :spec_name => "BaseSubmitView",                   :spec_dependency => ['Masonry', 'LocalLib/ColorMacros', 'LocalLib/UtilMacros']   }
   CSYBaseSubmitFooter                 = {:spec_path => "Base", :spec_name => "BaseSubmitFooter",                 :spec_dependency => ['LocalLib/BaseSubmitView']   }
   CSYBaseSubmintCell                  = {:spec_path => "Base", :spec_name => "BaseSubmintCell",                  :spec_dependency => ['LocalLib/BaseSubmitView']   }
-  
+  CSYBaseRefreshFooter                = {:spec_path => "Base", :spec_name => "BaseRefreshFooter",                :spec_dependency => ['MJRefresh']}
+  CSYBaseRefreshHeader                = {:spec_path => "Base", :spec_name => "BaseRefreshHeader",                :spec_dependency => ['MJRefresh', 'LocalLib/UtilMacros']} # ['MJRefresh', '~> 3.3.1'] 可以控制版本
   
   
   all_sub_spec = [
@@ -129,6 +130,8 @@ Pod::Spec.new do |s|
     CSYBaseSubmitView,
     CSYBaseSubmitFooter,
     CSYBaseSubmintCell,
+    CSYBaseRefreshFooter,
+    CSYBaseRefreshHeader,
     
     
   ]
@@ -147,7 +150,7 @@ Pod::Spec.new do |s|
       
       if providerDependency
         providerDependency.each do |dependency|
-          ss.dependency dependency
+          ss.dependency *dependency
         end
       end
       
