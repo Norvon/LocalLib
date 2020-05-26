@@ -3,6 +3,7 @@ PODS:
   - LocalLib (0.0.6):
     - LocalLib/AliPayManager (= 0.0.6)
     - LocalLib/BaseAlertVC (= 0.0.6)
+    - LocalLib/BaseCell (= 0.0.6)
     - LocalLib/BaseNavViewController (= 0.0.6)
     - LocalLib/BaseRefreshFooter (= 0.0.6)
     - LocalLib/BaseRefreshHeader (= 0.0.6)
@@ -41,6 +42,9 @@ PODS:
   - LocalLib/AliPayManager (0.0.6):
     - AlipaySDK-iOS
   - LocalLib/BaseAlertVC (0.0.6):
+    - LocalLib/BaseViewControlller
+    - Masonry
+  - LocalLib/BaseCell (0.0.6):
     - LocalLib/BaseViewControlller
     - Masonry
   - LocalLib/BaseNavViewController (0.0.6):
@@ -153,7 +157,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AlipaySDK-iOS: 8659cdb4403de7e5f26ad8b699864a9cbe53384c
-  LocalLib: 140bdb883912acb8bc9ab6f63e5c575aaf33c11a
+  LocalLib: 1845ec2145667770d92ff33308eb4296e596f345
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237

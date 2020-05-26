@@ -13,6 +13,7 @@
 #import "CSYAliPayManager.h"
 #import "CSYBaseAlertVC.h"
 #import "CSYBaseAlertHeadView.h"
+#import "CSYBaseCell.h"
 #import "CSYBaseNavViewController.h"
 #import "CSYBaseRefreshFooter.h"
 #import "CSYBaseRefreshHeader.h"

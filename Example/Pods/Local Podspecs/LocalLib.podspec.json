@@ -383,6 +383,20 @@
 
         ]
       }
+    },
+    {
+      "name": "BaseCell",
+      "source_files": [
+        "LocalLib/Classes/Base/BaseCell/**/*"
+      ],
+      "dependencies": {
+        "Masonry": [
+
+        ],
+        "LocalLib/BaseViewControlller": [
+
+        ]
+      }
     }
   ]
 }

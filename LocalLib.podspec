@@ -83,8 +83,9 @@ Pod::Spec.new do |s|
   CSYBaseSubmitFooter                 = {:spec_path => "Base", :spec_name => "BaseSubmitFooter",                 :spec_dependency => ['LocalLib/BaseSubmitView']   }
   CSYBaseSubmintCell                  = {:spec_path => "Base", :spec_name => "BaseSubmintCell",                  :spec_dependency => ['LocalLib/BaseSubmitView']   }
   CSYBaseRefreshFooter                = {:spec_path => "Base", :spec_name => "BaseRefreshFooter",                :spec_dependency => ['MJRefresh']}
-  CSYBaseRefreshHeader                = {:spec_path => "Base", :spec_name => "BaseRefreshHeader",                :spec_dependency => ['MJRefresh', 'LocalLib/UtilMacros']} 
+  CSYBaseRefreshHeader                = {:spec_path => "Base", :spec_name => "BaseRefreshHeader",                :spec_dependency => ['MJRefresh', 'LocalLib/UtilMacros']}
   CSYBaseAlertVC                      = {:spec_path => "Base", :spec_name => "BaseAlertVC",                      :spec_dependency => ['Masonry', 'LocalLib/BaseViewControlller']}
+  CSYBaseCell                         = {:spec_path => "Base", :spec_name => "BaseCell",                         :spec_dependency => ['Masonry', 'LocalLib/BaseViewControlller']}
   
   
   all_sub_spec = [
@@ -134,6 +135,7 @@ Pod::Spec.new do |s|
     CSYBaseRefreshFooter,
     CSYBaseRefreshHeader,
     CSYBaseAlertVC,
+    CSYBaseCell,
     
   ]
   
