@@ -414,6 +414,17 @@
 
         ]
       }
+    },
+    {
+      "name": "BasetTextInputCell",
+      "source_files": [
+        "LocalLib/Classes/Base/BasetTextInputCell/**/*"
+      ],
+      "dependencies": {
+        "LocalLib/BaseTextInputView": [
+
+        ]
+      }
     }
   ]
 }

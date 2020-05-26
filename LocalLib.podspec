@@ -87,7 +87,7 @@ Pod::Spec.new do |s|
   CSYBaseAlertVC                      = {:spec_path => "Base", :spec_name => "BaseAlertVC",                      :spec_dependency => ['Masonry', 'LocalLib/BaseViewControlller']}
   CSYBaseCell                         = {:spec_path => "Base", :spec_name => "BaseCell",                         :spec_dependency => ['Masonry', 'LocalLib/BaseViewControlller']}
   CSYBaseTextInputView                = {:spec_path => "Base", :spec_name => "BaseTextInputView",                :spec_dependency => ['Masonry', 'LocalLib/ColorMacros', 'LocalLib/UtilMacros']}
-  
+  CSYBasetTextInputCell               = {:spec_path => "Base", :spec_name => "BasetTextInputCell",                :spec_dependency => ['LocalLib/BaseTextInputView']}
   
   all_sub_spec = [
   # 所有的宏
@@ -138,6 +138,7 @@ Pod::Spec.new do |s|
     CSYBaseAlertVC,
     CSYBaseCell,
     CSYBaseTextInputView,
+    CSYBasetTextInputCell,
     
   ]
   
