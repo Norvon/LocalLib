@@ -1,7 +1,7 @@
 {
   "name": "LocalLib",
   "version": "0.0.6",
-  "summary": "拆分 BaseNavViewController、BaseTableViewFactory、BaseViewControlller、EmptyView",
+  "summary": "...",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/norvon@126.com/LocalLib",
   "license": {
@@ -25,6 +25,18 @@
   },
   "static_framework": true,
   "subspecs": [
+    {
+      "name": "ColorMacros",
+      "source_files": [
+        "LocalLib/Classes/Define/ColorMacros/**/*"
+      ]
+    },
+    {
+      "name": "UtilMacros",
+      "source_files": [
+        "LocalLib/Classes/Define/UtilMacros/**/*"
+      ]
+    },
     {
       "name": "DataDigest",
       "source_files": [
@@ -312,16 +324,26 @@
       }
     },
     {
-      "name": "ColorMacros",
+      "name": "BaseSubmitFooter",
       "source_files": [
-        "LocalLib/Classes/Define/ColorMacros/**/*"
-      ]
+        "LocalLib/Classes/Base/BaseSubmitFooter/**/*"
+      ],
+      "dependencies": {
+        "LocalLib/BaseSubmitView": [
+
+        ]
+      }
     },
     {
-      "name": "UtilMacros",
+      "name": "BaseSubmintCell",
       "source_files": [
-        "LocalLib/Classes/Define/UtilMacros/**/*"
-      ]
+        "LocalLib/Classes/Base/BaseSubmintCell/**/*"
+      ],
+      "dependencies": {
+        "LocalLib/BaseSubmitView": [
+
+        ]
+      }
     }
   ]
 }

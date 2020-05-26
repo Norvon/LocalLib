@@ -80,6 +80,8 @@ Pod::Spec.new do |s|
   CSYBaseViewControlller              = {:spec_path => "Base", :spec_name => "BaseViewControlller",              :spec_dependency => ['LocalLib/BaseNavViewController', 'LocalLib/BaseTableViewFactory','LocalLib/EmptyView', 'LocalLib/UIImageUtil'] }
   CSYMainRootVC                       = {:spec_path => "Base", :spec_name => "MainRootVC",                       :spec_dependency => ['LocalLib/BaseNavViewController']   }
   CSYBaseSubmitView                   = {:spec_path => "Base", :spec_name => "BaseSubmitView",                   :spec_dependency => ['Masonry', 'LocalLib/ColorMacros', 'LocalLib/UtilMacros']   }
+  CSYBaseSubmitFooter                 = {:spec_path => "Base", :spec_name => "BaseSubmitFooter",                 :spec_dependency => ['LocalLib/BaseSubmitView']   }
+  CSYBaseSubmintCell                  = {:spec_path => "Base", :spec_name => "BaseSubmintCell",                  :spec_dependency => ['LocalLib/BaseSubmitView']   }
   
   
   
@@ -125,6 +127,8 @@ Pod::Spec.new do |s|
     CSYBaseViewControlller,
     CSYMainRootVC,
     CSYBaseSubmitView,
+    CSYBaseSubmitFooter,
+    CSYBaseSubmintCell,
     
     
   ]
