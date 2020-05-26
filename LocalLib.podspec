@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'LocalLib'
   s.version          = '0.0.6'
-  s.summary          = '拆分 BaseNavViewController、BaseTableViewFactory、BaseViewControlller、EmptyView'
+  s.summary          = '...'
   
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -38,8 +38,11 @@ Pod::Spec.new do |s|
   
   # s.public_header_files = 'Pod/Classes/**/*.h'
   
+  # 所有的宏
+  CSYColorMacros              = {:spec_path => "Define", :spec_name => "ColorMacros"               }
+  CSYUtilMacros               = {:spec_path => "Define", :spec_name => "UtilMacros"               }
   
-#  所有Util
+  # 所有Util
   CSYDataDigest               = {:spec_path => "Utils", :spec_name => "DataDigest"               }
   CSYDateUtil                 = {:spec_path => "Utils", :spec_name => "DateUtil"                 }
   CSYDeviceIDTool             = {:spec_path => "Utils", :spec_name => "DeviceIDTool"             }
@@ -78,11 +81,13 @@ Pod::Spec.new do |s|
   CSYMainRootVC                       = {:spec_path => "Base", :spec_name => "MainRootVC",                       :spec_dependency => ['LocalLib/BaseNavViewController']   }
   CSYBaseSubmitView                   = {:spec_path => "Base", :spec_name => "BaseSubmitView",                   :spec_dependency => ['Masonry', 'LocalLib/ColorMacros', 'LocalLib/UtilMacros']   }
   
-  # 所有的宏
-  CSYColorMacros              = {:spec_path => "Define", :spec_name => "ColorMacros"               }
-  CSYUtilMacros               = {:spec_path => "Define", :spec_name => "UtilMacros"               }
+  
   
   all_sub_spec = [
+  # 所有的宏
+    CSYColorMacros,
+    CSYUtilMacros,
+  
   #  所有Util
     CSYDataDigest,
     CSYDateUtil,
@@ -121,9 +126,7 @@ Pod::Spec.new do |s|
     CSYMainRootVC,
     CSYBaseSubmitView,
     
-    # 所有的宏
-    CSYColorMacros,
-    CSYUtilMacros,
+    
   ]
   
 #  循环进行添加
