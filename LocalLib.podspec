@@ -86,6 +86,7 @@ Pod::Spec.new do |s|
   CSYBaseRefreshHeader                = {:spec_path => "Base", :spec_name => "BaseRefreshHeader",                :spec_dependency => ['MJRefresh', 'LocalLib/UtilMacros']}
   CSYBaseAlertVC                      = {:spec_path => "Base", :spec_name => "BaseAlertVC",                      :spec_dependency => ['Masonry', 'LocalLib/BaseViewControlller']}
   CSYBaseCell                         = {:spec_path => "Base", :spec_name => "BaseCell",                         :spec_dependency => ['Masonry', 'LocalLib/BaseViewControlller']}
+  CSYBaseTextInputView                = {:spec_path => "Base", :spec_name => "BaseTextInputView",                :spec_dependency => ['Masonry', 'LocalLib/ColorMacros', 'LocalLib/UtilMacros']}
   
   
   all_sub_spec = [
@@ -136,6 +137,7 @@ Pod::Spec.new do |s|
     CSYBaseRefreshHeader,
     CSYBaseAlertVC,
     CSYBaseCell,
+    CSYBaseTextInputView,
     
   ]
   

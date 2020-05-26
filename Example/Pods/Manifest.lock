@@ -11,6 +11,7 @@ PODS:
     - LocalLib/BaseSubmitFooter (= 0.0.6)
     - LocalLib/BaseSubmitView (= 0.0.6)
     - LocalLib/BaseTableViewFactory (= 0.0.6)
+    - LocalLib/BaseTextInputView (= 0.0.6)
     - LocalLib/BaseViewControlller (= 0.0.6)
     - LocalLib/ColorMacros (= 0.0.6)
     - LocalLib/CSYInternalNullExtention (= 0.0.6)
@@ -64,6 +65,10 @@ PODS:
     - Masonry
   - LocalLib/BaseTableViewFactory (0.0.6):
     - LocalLib/ColorMacros
+  - LocalLib/BaseTextInputView (0.0.6):
+    - LocalLib/ColorMacros
+    - LocalLib/UtilMacros
+    - Masonry
   - LocalLib/BaseViewControlller (0.0.6):
     - LocalLib/BaseNavViewController
     - LocalLib/BaseTableViewFactory
@@ -157,7 +162,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AlipaySDK-iOS: 8659cdb4403de7e5f26ad8b699864a9cbe53384c
-  LocalLib: 1845ec2145667770d92ff33308eb4296e596f345
+  LocalLib: b7619dbe4a9fca599d796a4f9ae4d13a946e7877
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237

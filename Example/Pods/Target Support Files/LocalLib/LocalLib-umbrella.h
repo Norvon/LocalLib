@@ -21,6 +21,8 @@
 #import "CSYBaseSubmitFooter.h"
 #import "CSYBaseSubmitView.h"
 #import "CSYBaseTableViewFactory.h"
+#import "CSYBaseTextInputIconView.h"
+#import "CSYBaseTextInputView.h"
 #import "BaseViewController.h"
 #import "NSNull+CSYInternalNullExtention.h"
 #import "ColorMacros.h"

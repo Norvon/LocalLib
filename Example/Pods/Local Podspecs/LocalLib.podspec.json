@@ -397,6 +397,23 @@
 
         ]
       }
+    },
+    {
+      "name": "BaseTextInputView",
+      "source_files": [
+        "LocalLib/Classes/Base/BaseTextInputView/**/*"
+      ],
+      "dependencies": {
+        "Masonry": [
+
+        ],
+        "LocalLib/ColorMacros": [
+
+        ],
+        "LocalLib/UtilMacros": [
+
+        ]
+      }
     }
   ]
 }
