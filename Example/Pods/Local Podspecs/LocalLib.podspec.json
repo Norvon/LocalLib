@@ -1,8 +1,8 @@
 {
   "name": "LocalLib",
-  "version": "0.0.6",
-  "summary": "...",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.0.7",
+  "summary": "本地库",
+  "description": "本地库",
   "homepage": "https://github.com/norvon@126.com/LocalLib",
   "license": {
     "type": "MIT",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/norvon@126.com/LocalLib.git",
-    "tag": "0.0.6"
+    "tag": "0.0.7"
   },
   "platforms": {
     "ios": "8.0"
@@ -445,6 +445,49 @@
       "frameworks": [
         "WebKit"
       ]
+    },
+    {
+      "name": "BaseSearchResultVC",
+      "source_files": [
+        "LocalLib/Classes/Base/BaseSearchResultVC/**/*"
+      ],
+      "dependencies": {
+        "LocalLib/BaseViewController": [
+
+        ]
+      }
+    },
+    {
+      "name": "BaseSearchHistoryVC",
+      "source_files": [
+        "LocalLib/Classes/Base/BaseSearchHistoryVC/**/*"
+      ],
+      "dependencies": {
+        "Masonry": [
+
+        ],
+        "Toast": [
+
+        ],
+        "YYCache": [
+
+        ],
+        "LocalLib/BaseCell": [
+
+        ],
+        "LocalLib/BaseSearchResultVC": [
+
+        ],
+        "LocalLib/ColorMacros": [
+
+        ],
+        "LocalLib/UtilMacros": [
+
+        ],
+        "LocalLib/UIView": [
+
+        ]
+      }
     }
   ]
 }

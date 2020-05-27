@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LocalLib'
-  s.version          = '0.0.6'
-  s.summary          = '...'
+  s.version          = '0.0.7'
+  s.summary          = '本地库'
   
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   
   s.description      = <<-DESC
-  TODO: Add long description of the pod here.
+  本地库
   DESC
   
   s.homepage         = 'https://github.com/norvon@126.com/LocalLib'
@@ -77,7 +77,7 @@ Pod::Spec.new do |s|
   CSYEmptyView                        = {:spec_path => "Base", :spec_name => "EmptyView",                        :spec_dependency => ['LocalLib/LYEmptyView', 'LocalLib/ColorMacros', 'LocalLib/UtilMacros']   }
   CSYBaseNavViewController            = {:spec_path => "Base", :spec_name => "BaseNavViewController",            :spec_dependency => ['RTRootNavigationController']   }
   CSYBaseTableViewFactory             = {:spec_path => "Base", :spec_name => "BaseTableViewFactory",             :spec_dependency => ['LocalLib/ColorMacros']   }
-  CSYBaseViewController              = {:spec_path => "Base", :spec_name => "BaseViewController",              :spec_dependency => ['LocalLib/BaseNavViewController', 'LocalLib/BaseTableViewFactory','LocalLib/EmptyView', 'LocalLib/UIImageUtil'] }
+  CSYBaseViewController              = {:spec_path => "Base", :spec_name => "BaseViewController",                :spec_dependency => ['LocalLib/BaseNavViewController', 'LocalLib/BaseTableViewFactory','LocalLib/EmptyView', 'LocalLib/UIImageUtil'] }
   CSYMainRootVC                       = {:spec_path => "Base", :spec_name => "MainRootVC",                       :spec_dependency => ['LocalLib/BaseNavViewController']   }
   CSYBaseSubmitView                   = {:spec_path => "Base", :spec_name => "BaseSubmitView",                   :spec_dependency => ['Masonry', 'LocalLib/ColorMacros', 'LocalLib/UtilMacros']   }
   CSYBaseSubmitFooter                 = {:spec_path => "Base", :spec_name => "BaseSubmitFooter",                 :spec_dependency => ['LocalLib/BaseSubmitView']   }
@@ -89,6 +89,8 @@ Pod::Spec.new do |s|
   CSYBaseTextInputView                = {:spec_path => "Base", :spec_name => "BaseTextInputView",                :spec_dependency => ['Masonry', 'LocalLib/ColorMacros', 'LocalLib/UtilMacros']}
   CSYBasetTextInputCell               = {:spec_path => "Base", :spec_name => "BasetTextInputCell",               :spec_dependency => ['LocalLib/BaseTextInputView']}
   CSYBaseWebVC                        = {:spec_path => "Base", :spec_name => "BaseWebVC",                        :spec_dependency => ['Toast', 'Masonry', 'LocalLib/BaseViewController'], :spec_frameworks => ['WebKit'] }
+  CSYBaseSearchResultVC               = {:spec_path => "Base", :spec_name => "BaseSearchResultVC",               :spec_dependency => ['LocalLib/BaseViewController'] }
+  CSYBaseSearchHistoryVC              = {:spec_path => "Base", :spec_name => "BaseSearchHistoryVC",              :spec_dependency => ['Masonry', 'Toast',  'YYCache', 'LocalLib/BaseCell', 'LocalLib/BaseSearchResultVC', 'LocalLib/ColorMacros', 'LocalLib/UtilMacros', 'LocalLib/UIView'] }
   
   
   
@@ -144,6 +146,8 @@ Pod::Spec.new do |s|
     CSYBaseTextInputView,
     CSYBasetTextInputCell,
     CSYBaseWebVC,
+    CSYBaseSearchResultVC,
+    CSYBaseSearchHistoryVC,
     
   ]
   

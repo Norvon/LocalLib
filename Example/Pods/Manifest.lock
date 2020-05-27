@@ -1,129 +1,142 @@
 PODS:
   - AlipaySDK-iOS (15.7.4)
-  - LocalLib (0.0.6):
-    - LocalLib/AliPayManager (= 0.0.6)
-    - LocalLib/BaseAlertVC (= 0.0.6)
-    - LocalLib/BaseCell (= 0.0.6)
-    - LocalLib/BaseNavViewController (= 0.0.6)
-    - LocalLib/BaseRefreshFooter (= 0.0.6)
-    - LocalLib/BaseRefreshHeader (= 0.0.6)
-    - LocalLib/BaseSubmintCell (= 0.0.6)
-    - LocalLib/BaseSubmitFooter (= 0.0.6)
-    - LocalLib/BaseSubmitView (= 0.0.6)
-    - LocalLib/BaseTableViewFactory (= 0.0.6)
-    - LocalLib/BaseTextInputView (= 0.0.6)
-    - LocalLib/BasetTextInputCell (= 0.0.6)
-    - LocalLib/BaseViewController (= 0.0.6)
-    - LocalLib/BaseWebVC (= 0.0.6)
-    - LocalLib/ColorMacros (= 0.0.6)
-    - LocalLib/CSYInternalNullExtention (= 0.0.6)
-    - LocalLib/DataDigest (= 0.0.6)
-    - LocalLib/DateUtil (= 0.0.6)
-    - LocalLib/DeviceIDTool (= 0.0.6)
-    - LocalLib/EmptyView (= 0.0.6)
-    - LocalLib/FileUtil (= 0.0.6)
-    - LocalLib/FontUtil (= 0.0.6)
-    - LocalLib/KeyGenerator (= 0.0.6)
-    - LocalLib/LGAlertView (= 0.0.6)
-    - LocalLib/LGAlertViewManager (= 0.0.6)
-    - LocalLib/LJContactManager (= 0.0.6)
-    - LocalLib/LYEmptyView (= 0.0.6)
-    - LocalLib/MachineModel (= 0.0.6)
-    - LocalLib/MainRootVC (= 0.0.6)
-    - LocalLib/NSObjectUtil (= 0.0.6)
-    - LocalLib/NSStringUtil (= 0.0.6)
-    - LocalLib/RegexPredicate (= 0.0.6)
-    - LocalLib/Security (= 0.0.6)
-    - LocalLib/ShareManager (= 0.0.6)
-    - LocalLib/SystemUtil (= 0.0.6)
-    - LocalLib/UIButtonUtil (= 0.0.6)
-    - LocalLib/UIImageUtil (= 0.0.6)
-    - LocalLib/UIView (= 0.0.6)
-    - LocalLib/UIViewHud (= 0.0.6)
-    - LocalLib/UtilMacros (= 0.0.6)
-    - LocalLib/WechatPayManager (= 0.0.6)
-  - LocalLib/AliPayManager (0.0.6):
+  - LocalLib (0.0.7):
+    - LocalLib/AliPayManager (= 0.0.7)
+    - LocalLib/BaseAlertVC (= 0.0.7)
+    - LocalLib/BaseCell (= 0.0.7)
+    - LocalLib/BaseNavViewController (= 0.0.7)
+    - LocalLib/BaseRefreshFooter (= 0.0.7)
+    - LocalLib/BaseRefreshHeader (= 0.0.7)
+    - LocalLib/BaseSearchHistoryVC (= 0.0.7)
+    - LocalLib/BaseSearchResultVC (= 0.0.7)
+    - LocalLib/BaseSubmintCell (= 0.0.7)
+    - LocalLib/BaseSubmitFooter (= 0.0.7)
+    - LocalLib/BaseSubmitView (= 0.0.7)
+    - LocalLib/BaseTableViewFactory (= 0.0.7)
+    - LocalLib/BaseTextInputView (= 0.0.7)
+    - LocalLib/BasetTextInputCell (= 0.0.7)
+    - LocalLib/BaseViewController (= 0.0.7)
+    - LocalLib/BaseWebVC (= 0.0.7)
+    - LocalLib/ColorMacros (= 0.0.7)
+    - LocalLib/CSYInternalNullExtention (= 0.0.7)
+    - LocalLib/DataDigest (= 0.0.7)
+    - LocalLib/DateUtil (= 0.0.7)
+    - LocalLib/DeviceIDTool (= 0.0.7)
+    - LocalLib/EmptyView (= 0.0.7)
+    - LocalLib/FileUtil (= 0.0.7)
+    - LocalLib/FontUtil (= 0.0.7)
+    - LocalLib/KeyGenerator (= 0.0.7)
+    - LocalLib/LGAlertView (= 0.0.7)
+    - LocalLib/LGAlertViewManager (= 0.0.7)
+    - LocalLib/LJContactManager (= 0.0.7)
+    - LocalLib/LYEmptyView (= 0.0.7)
+    - LocalLib/MachineModel (= 0.0.7)
+    - LocalLib/MainRootVC (= 0.0.7)
+    - LocalLib/NSObjectUtil (= 0.0.7)
+    - LocalLib/NSStringUtil (= 0.0.7)
+    - LocalLib/RegexPredicate (= 0.0.7)
+    - LocalLib/Security (= 0.0.7)
+    - LocalLib/ShareManager (= 0.0.7)
+    - LocalLib/SystemUtil (= 0.0.7)
+    - LocalLib/UIButtonUtil (= 0.0.7)
+    - LocalLib/UIImageUtil (= 0.0.7)
+    - LocalLib/UIView (= 0.0.7)
+    - LocalLib/UIViewHud (= 0.0.7)
+    - LocalLib/UtilMacros (= 0.0.7)
+    - LocalLib/WechatPayManager (= 0.0.7)
+  - LocalLib/AliPayManager (0.0.7):
     - AlipaySDK-iOS
-  - LocalLib/BaseAlertVC (0.0.6):
+  - LocalLib/BaseAlertVC (0.0.7):
     - LocalLib/BaseViewController
     - Masonry
-  - LocalLib/BaseCell (0.0.6):
+  - LocalLib/BaseCell (0.0.7):
     - LocalLib/BaseViewController
     - Masonry
-  - LocalLib/BaseNavViewController (0.0.6):
+  - LocalLib/BaseNavViewController (0.0.7):
     - RTRootNavigationController
-  - LocalLib/BaseRefreshFooter (0.0.6):
+  - LocalLib/BaseRefreshFooter (0.0.7):
     - MJRefresh
-  - LocalLib/BaseRefreshHeader (0.0.6):
+  - LocalLib/BaseRefreshHeader (0.0.7):
     - LocalLib/UtilMacros
     - MJRefresh
-  - LocalLib/BaseSubmintCell (0.0.6):
+  - LocalLib/BaseSearchHistoryVC (0.0.7):
+    - LocalLib/BaseCell
+    - LocalLib/BaseSearchResultVC
+    - LocalLib/ColorMacros
+    - LocalLib/UIView
+    - LocalLib/UtilMacros
+    - Masonry
+    - Toast
+    - YYCache
+  - LocalLib/BaseSearchResultVC (0.0.7):
+    - LocalLib/BaseViewController
+  - LocalLib/BaseSubmintCell (0.0.7):
     - LocalLib/BaseSubmitView
-  - LocalLib/BaseSubmitFooter (0.0.6):
+  - LocalLib/BaseSubmitFooter (0.0.7):
     - LocalLib/BaseSubmitView
-  - LocalLib/BaseSubmitView (0.0.6):
+  - LocalLib/BaseSubmitView (0.0.7):
     - LocalLib/ColorMacros
     - LocalLib/UtilMacros
     - Masonry
-  - LocalLib/BaseTableViewFactory (0.0.6):
+  - LocalLib/BaseTableViewFactory (0.0.7):
     - LocalLib/ColorMacros
-  - LocalLib/BaseTextInputView (0.0.6):
+  - LocalLib/BaseTextInputView (0.0.7):
     - LocalLib/ColorMacros
     - LocalLib/UtilMacros
     - Masonry
-  - LocalLib/BasetTextInputCell (0.0.6):
+  - LocalLib/BasetTextInputCell (0.0.7):
     - LocalLib/BaseTextInputView
-  - LocalLib/BaseViewController (0.0.6):
+  - LocalLib/BaseViewController (0.0.7):
     - LocalLib/BaseNavViewController
     - LocalLib/BaseTableViewFactory
     - LocalLib/EmptyView
     - LocalLib/UIImageUtil
-  - LocalLib/BaseWebVC (0.0.6):
+  - LocalLib/BaseWebVC (0.0.7):
     - LocalLib/BaseViewController
     - Masonry
     - Toast
-  - LocalLib/ColorMacros (0.0.6)
-  - LocalLib/CSYInternalNullExtention (0.0.6)
-  - LocalLib/DataDigest (0.0.6)
-  - LocalLib/DateUtil (0.0.6)
-  - LocalLib/DeviceIDTool (0.0.6)
-  - LocalLib/EmptyView (0.0.6):
+  - LocalLib/ColorMacros (0.0.7)
+  - LocalLib/CSYInternalNullExtention (0.0.7)
+  - LocalLib/DataDigest (0.0.7)
+  - LocalLib/DateUtil (0.0.7)
+  - LocalLib/DeviceIDTool (0.0.7)
+  - LocalLib/EmptyView (0.0.7):
     - LocalLib/ColorMacros
     - LocalLib/LYEmptyView
     - LocalLib/UtilMacros
-  - LocalLib/FileUtil (0.0.6)
-  - LocalLib/FontUtil (0.0.6)
-  - LocalLib/KeyGenerator (0.0.6):
+  - LocalLib/FileUtil (0.0.7)
+  - LocalLib/FontUtil (0.0.7)
+  - LocalLib/KeyGenerator (0.0.7):
     - LocalLib/DataDigest
-  - LocalLib/LGAlertView (0.0.6)
-  - LocalLib/LGAlertViewManager (0.0.6):
+  - LocalLib/LGAlertView (0.0.7)
+  - LocalLib/LGAlertViewManager (0.0.7):
     - LocalLib/LGAlertView
-  - LocalLib/LJContactManager (0.0.6)
-  - LocalLib/LYEmptyView (0.0.6)
-  - LocalLib/MachineModel (0.0.6)
-  - LocalLib/MainRootVC (0.0.6):
+  - LocalLib/LJContactManager (0.0.7)
+  - LocalLib/LYEmptyView (0.0.7)
+  - LocalLib/MachineModel (0.0.7)
+  - LocalLib/MainRootVC (0.0.7):
     - LocalLib/BaseNavViewController
-  - LocalLib/NSObjectUtil (0.0.6)
-  - LocalLib/NSStringUtil (0.0.6)
-  - LocalLib/RegexPredicate (0.0.6)
-  - LocalLib/Security (0.0.6)
-  - LocalLib/ShareManager (0.0.6):
+  - LocalLib/NSObjectUtil (0.0.7)
+  - LocalLib/NSStringUtil (0.0.7)
+  - LocalLib/RegexPredicate (0.0.7)
+  - LocalLib/Security (0.0.7)
+  - LocalLib/ShareManager (0.0.7):
     - Toast
     - UMCCommon
     - UMCShare/Social/ReducedQQ
     - UMCShare/Social/ReducedSina
     - UMCShare/Social/ReducedWeChat
     - UMCShare/UI
-  - LocalLib/SystemUtil (0.0.6):
+  - LocalLib/SystemUtil (0.0.7):
     - LocalLib/LGAlertViewManager
-  - LocalLib/UIButtonUtil (0.0.6):
+  - LocalLib/UIButtonUtil (0.0.7):
     - LocalLib/UIImageUtil
-  - LocalLib/UIImageUtil (0.0.6)
-  - LocalLib/UIView (0.0.6)
-  - LocalLib/UIViewHud (0.0.6):
+  - LocalLib/UIImageUtil (0.0.7)
+  - LocalLib/UIView (0.0.7)
+  - LocalLib/UIViewHud (0.0.7):
     - MBProgressHUD
-  - LocalLib/UtilMacros (0.0.6)
-  - LocalLib/WechatPayManager (0.0.6):
+  - LocalLib/UtilMacros (0.0.7)
+  - LocalLib/WechatPayManager (0.0.7):
     - WechatOpenSDK
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
@@ -148,6 +161,7 @@ PODS:
     - UMCCommon
     - UMCShare/Core
   - WechatOpenSDK (1.8.7.1)
+  - YYCache (1.0.4)
 
 DEPENDENCIES:
   - LocalLib (from `../`)
@@ -163,6 +177,7 @@ SPEC REPOS:
     - UMCCommon
     - UMCShare
     - WechatOpenSDK
+    - YYCache
 
 EXTERNAL SOURCES:
   LocalLib:
@@ -170,7 +185,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AlipaySDK-iOS: 8659cdb4403de7e5f26ad8b699864a9cbe53384c
-  LocalLib: 1fa6e4eaf2c58a077d780da031387e036d783c83
+  LocalLib: 1040210035c053613e45e185113dcbb50c1e9685
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MJRefresh: 3153c59a363159092c08b2177ec3a7d09f90bfaf
@@ -179,6 +194,7 @@ SPEC CHECKSUMS:
   UMCCommon: b0703b0053323f598e01670ea702b8eb1e66e611
   UMCShare: a250203b34a56cde25cc4c28335449b542f0255d
   WechatOpenSDK: 6a4d1436c15b3b5fe2a0bd383f3046010186da44
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
 
 PODFILE CHECKSUM: 3804546bcdc2bdbf1acae63c24cdd7b1e1f9ba76
 
